@@ -1,0 +1,50 @@
+#!/bin/bash
+#
+# This file is used to process a single subject using the ANTs Longitudinal Cortical Thickness 
+# pipeline with the Nick Oasis Template. The output contains a SST, cortical thickness maps 
+# (pre and post), relevant priors and transformations
+#
+# Usage:    Longitudinal_Cortical_Thickness.sh pat04 
+#           Longitudinal_Cortical_Thickness.sh 15_e
+# 
+#   pat04 - HUP subject ID
+#   15_e - VU subject ID
+#
+# Command Template:
+# antsLongitudinalCorticalThickness.sh -d imageDimension
+#              -e brainTemplate
+#              -m brainExtractionProbabilityMask
+#              -p brainSegmentationPriors
+#              <OPTARGS>
+#              -o outputPrefix
+#              ${anatomicalImages[@]}
+#
+# Data:
+# HUP subjects (17)
+# subs = ['14_w';'15_e';'20_l';'22_m';'23_r';'24_c';'25_f';'26_k';'27_m';'28_d';'29_w';'30_m';'31_h';'33_s';'40_f';'41_h';'42_m';];
+# VU Subjects (23)
+# subs = ['02'; '03'; '04'; '05'; '06'; '07'; '08'; '09'; '11'; '13'; '14'; '15'; '18'; '20'; '21'; '22'; '23'; '24'; '25'; '26'; '27'; '30'; '32'];
+#
+# Thomas Campbell Arnold
+# tcarnold@seas.upenn.edu
+# 5/23/2019
+
+DATA_DIR=./data/${1}/
+TEMPLATE_DIR=/gdrive/public/USERS/lkini/Templates/NickOasisTemplate/
+
+# setup output directory
+OUT_DIR=./analysis/${1}/
+mkdir $OUT_DIR
+OUT_DIR=./analysis/${1}/Longitudinal_Cortical_Thickness
+mkdir $OUT_DIR
+
+antsLongitudinalCorticalThickness.sh -d 3 \
+              -c 2 \
+              -j 2 \
+              -e ${TEMPLATE_DIR}T_template0.nii.gz \
+              -m ${TEMPLATE_DIR}T_template0ProbabilityMask.nii.gz \
+              -p ${TEMPLATE_DIR}Priors2/priors%d.nii.gz \
+              -f ${TEMPLATE_DIR}T_template0ExtractionMask.nii.gz \
+              -o ${OUT_DIR} \
+              ${DATA_DIR}*.nii* 
+              
