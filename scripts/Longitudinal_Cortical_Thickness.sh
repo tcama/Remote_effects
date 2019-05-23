@@ -30,7 +30,7 @@
 # 5/23/2019
 
 DATA_DIR=./data/${1}/
-TEMPLATE_DIR=/gdrive/public/USERS/lkini/Templates/NickOasisTemplate/
+TEMPLATE_DIR=./tools/OasisTemplate/
 
 # setup output directory
 OUT_DIR=./analysis/${1}/
@@ -43,7 +43,7 @@ img_N=$(ls -l ${DATA_DIR}*.nii* | wc -l)
 
 antsLongitudinalCorticalThickness.sh -d 3 \
               -c 2 \
-              -j ${img_N} \ 
+              -j ${img_N} \
               -e ${TEMPLATE_DIR}T_template0.nii.gz \
               -m ${TEMPLATE_DIR}T_template0ProbabilityMask.nii.gz \
               -p ${TEMPLATE_DIR}Priors2/priors%d.nii.gz \
@@ -51,3 +51,5 @@ antsLongitudinalCorticalThickness.sh -d 3 \
               -o ${OUT_DIR} \
               ${DATA_DIR}*.nii* 
               
+
+        
