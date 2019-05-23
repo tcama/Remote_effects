@@ -1,2 +1,2 @@
-# Remote_effects_VU
-Analysis of remote effects project on VU data
+# Remote effects
+Contains files for processing remote effects data
