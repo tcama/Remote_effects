@@ -1,0 +1,1236 @@
+=============================================================================
+The composite transform is comprised of the following transforms (in order): 
+  1. Center of mass alignment using fixed image: /home/srdas/wd/Pfizer/ADC/NickOasisTemplate/T00_NickOasisTemplate_mprage/registration/T00_NickOasisTemplate_mprage.nii.gz and moving image: /home/srdas/bin/ahead_joint/turnkey/data/WholeBrain/1125_3.nii.gz (type = TranslationTransform)
+=============================================================================
+  fixed image: /home/srdas/wd/Pfizer/ADC/NickOasisTemplate/T00_NickOasisTemplate_mprage/registration/T00_NickOasisTemplate_mprage.nii.gz
+  moving image: /home/srdas/bin/ahead_joint/turnkey/data/WholeBrain/1125_3.nii.gz
+  number of levels = 3
+  fixed image: /home/srdas/wd/Pfizer/ADC/NickOasisTemplate/T00_NickOasisTemplate_mprage/registration/T00_NickOasisTemplate_mprage.nii.gz
+  moving image: /home/srdas/bin/ahead_joint/turnkey/data/WholeBrain/1125_3.nii.gz
+  number of levels = 3
+  fixed image: /home/srdas/wd/Pfizer/ADC/NickOasisTemplate/T00_NickOasisTemplate_mprage/registration/T00_NickOasisTemplate_mprage.nii.gz
+  moving image: /home/srdas/bin/ahead_joint/turnkey/data/WholeBrain/1125_3.nii.gz
+  number of levels = 3
+  fixed image: /home/srdas/wd/Pfizer/ADC/NickOasisTemplate/T00_NickOasisTemplate_mprage/registration/T00_NickOasisTemplate_mprage.nii.gz
+  moving image: /home/srdas/bin/ahead_joint/turnkey/data/WholeBrain/1125_3.nii.gz
+  number of levels = 3
+Dimension = 3
+Number of stages = 4
+Use Histogram Matching true
+Winsorize Image Intensities true
+Lower Quantile = 0
+Upper Quantile = 0.995
+Stage 1 State
+   Metric = Mattes
+     Fixed Image = Image (0x1e354e0)
+  RTTI typeinfo:   itk::Image<float, 3u>
+  Reference Count: 2
+  Modified Time: 1109
+  Debug: Off
+  Observers: 
+    none
+  Source: (none)
+  Source output name: (none)
+  Release Data: Off
+  Data Released: False
+  Global Release Data: Off
+  PipelineMTime: 0
+  UpdateMTime: 1102
+  RealTimeStamp: 0 seconds 
+  LargestPossibleRegion: 
+    Dimension: 3
+    Index: [0, 0, 0]
+    Size: [216, 256, 291]
+  BufferedRegion: 
+    Dimension: 3
+    Index: [0, 0, 0]
+    Size: [216, 256, 291]
+  RequestedRegion: 
+    Dimension: 3
+    Index: [0, 0, 0]
+    Size: [216, 256, 291]
+  Spacing: [1, 1, 1]
+  Origin: [0, 293, 0]
+  Direction: 
+1 0 0
+0 -0 -1
+0 -1 -0
+
+  IndexToPointMatrix: 
+  1 0 0
+0 0 -1
+0 -1 0
+
+  PointToIndexMatrix: 
+  1 0 0
+0 0 -1
+0 -1 0
+
+  Inverse Direction: 
+  1 0 0
+0 0 -1
+0 -1 0
+
+  PixelContainer: 
+    ImportImageContainer (0x1e47c10)
+      RTTI typeinfo:   itk::ImportImageContainer<unsigned long, float>
+      Reference Count: 1
+      Modified Time: 1099
+      Debug: Off
+      Observers: 
+        none
+      Pointer: 0x7f5f1d69a010
+      Container manages memory: true
+      Size: 16091136
+      Capacity: 16091136
+
+     Moving Image = Image (0x1e455f0)
+  RTTI typeinfo:   itk::Image<float, 3u>
+  Reference Count: 2
+  Modified Time: 1274
+  Debug: Off
+  Observers: 
+    none
+  Source: (none)
+  Source output name: (none)
+  Release Data: Off
+  Data Released: False
+  Global Release Data: Off
+  PipelineMTime: 0
+  UpdateMTime: 1267
+  RealTimeStamp: 0 seconds 
+  LargestPossibleRegion: 
+    Dimension: 3
+    Index: [0, 0, 0]
+    Size: [256, 256, 264]
+  BufferedRegion: 
+    Dimension: 3
+    Index: [0, 0, 0]
+    Size: [256, 256, 264]
+  RequestedRegion: 
+    Dimension: 3
+    Index: [0, 0, 0]
+    Size: [256, 256, 264]
+  Spacing: [1, 1, 1]
+  Origin: [-0, 263, 0]
+  Direction: 
+1 0 0
+0 -0 -1
+0 -1 -0
+
+  IndexToPointMatrix: 
+  1 0 0
+0 0 -1
+0 -1 0
+
+  PointToIndexMatrix: 
+  1 0 0
+0 0 -1
+0 -1 0
+
+  Inverse Direction: 
+  1 0 0
+0 0 -1
+0 -1 0
+
+  PixelContainer: 
+    ImportImageContainer (0x1e458b0)
+      RTTI typeinfo:   itk::ImportImageContainer<unsigned long, float>
+      Reference Count: 1
+      Modified Time: 1264
+      Debug: Off
+      Observers: 
+        none
+      Pointer: 0x7f5f15636010
+      Container manages memory: true
+      Size: 17301504
+      Capacity: 17301504
+
+     Weighting = 1
+     Sampling Strategy = regular
+     NumberOfBins = 32
+     Radius = 1
+     Sampling percentage  = 0.25
+   Transform = Translation
+     Gradient Step = 0.1
+     Update Field Sigma (voxel space) = 0
+     Total Field Sigma (voxel space) = 0
+     Update Field Time Sigma = 0
+     Total Field Time Sigma  = 0
+     Number of Time Indices = 0
+     Number of Time Point Samples = 0
+Stage 2 State
+   Metric = Mattes
+     Fixed Image = Image (0x1e529b0)
+  RTTI typeinfo:   itk::Image<float, 3u>
+  Reference Count: 2
+  Modified Time: 1442
+  Debug: Off
+  Observers: 
+    none
+  Source: (none)
+  Source output name: (none)
+  Release Data: Off
+  Data Released: False
+  Global Release Data: Off
+  PipelineMTime: 0
+  UpdateMTime: 1435
+  RealTimeStamp: 0 seconds 
+  LargestPossibleRegion: 
+    Dimension: 3
+    Index: [0, 0, 0]
+    Size: [216, 256, 291]
+  BufferedRegion: 
+    Dimension: 3
+    Index: [0, 0, 0]
+    Size: [216, 256, 291]
+  RequestedRegion: 
+    Dimension: 3
+    Index: [0, 0, 0]
+    Size: [216, 256, 291]
+  Spacing: [1, 1, 1]
+  Origin: [0, 293, 0]
+  Direction: 
+1 0 0
+0 -0 -1
+0 -1 -0
+
+  IndexToPointMatrix: 
+  1 0 0
+0 0 -1
+0 -1 0
+
+  PointToIndexMatrix: 
+  1 0 0
+0 0 -1
+0 -1 0
+
+  Inverse Direction: 
+  1 0 0
+0 0 -1
+0 -1 0
+
+  PixelContainer: 
+    ImportImageContainer (0x1e459b0)
+      RTTI typeinfo:   itk::ImportImageContainer<unsigned long, float>
+      Reference Count: 1
+      Modified Time: 1432
+      Debug: Off
+      Observers: 
+        none
+      Pointer: 0x7f5f19937010
+      Container manages memory: true
+      Size: 16091136
+      Capacity: 16091136
+
+     Moving Image = Image (0x1e42790)
+  RTTI typeinfo:   itk::Image<float, 3u>
+  Reference Count: 2
+  Modified Time: 1607
+  Debug: Off
+  Observers: 
+    none
+  Source: (none)
+  Source output name: (none)
+  Release Data: Off
+  Data Released: False
+  Global Release Data: Off
+  PipelineMTime: 0
+  UpdateMTime: 1600
+  RealTimeStamp: 0 seconds 
+  LargestPossibleRegion: 
+    Dimension: 3
+    Index: [0, 0, 0]
+    Size: [256, 256, 264]
+  BufferedRegion: 
+    Dimension: 3
+    Index: [0, 0, 0]
+    Size: [256, 256, 264]
+  RequestedRegion: 
+    Dimension: 3
+    Index: [0, 0, 0]
+    Size: [256, 256, 264]
+  Spacing: [1, 1, 1]
+  Origin: [-0, 263, 0]
+  Direction: 
+1 0 0
+0 -0 -1
+0 -1 -0
+
+  IndexToPointMatrix: 
+  1 0 0
+0 0 -1
+0 -1 0
+
+  PointToIndexMatrix: 
+  1 0 0
+0 0 -1
+0 -1 0
+
+  Inverse Direction: 
+  1 0 0
+0 0 -1
+0 -1 0
+
+  PixelContainer: 
+    ImportImageContainer (0x1e42a50)
+      RTTI typeinfo:   itk::ImportImageContainer<unsigned long, float>
+      Reference Count: 1
+      Modified Time: 1597
+      Debug: Off
+      Observers: 
+        none
+      Pointer: 0x7f5f0d6d2010
+      Container manages memory: true
+      Size: 17301504
+      Capacity: 17301504
+
+     Weighting = 1
+     Sampling Strategy = regular
+     NumberOfBins = 32
+     Radius = 1
+     Sampling percentage  = 0.25
+   Transform = Rigid
+     Gradient Step = 0.1
+     Update Field Sigma (voxel space) = 0
+     Total Field Sigma (voxel space) = 0
+     Update Field Time Sigma = 0
+     Total Field Time Sigma  = 0
+     Number of Time Indices = 0
+     Number of Time Point Samples = 0
+Stage 3 State
+   Metric = Mattes
+     Fixed Image = Image (0x1e52d30)
+  RTTI typeinfo:   itk::Image<float, 3u>
+  Reference Count: 2
+  Modified Time: 1774
+  Debug: Off
+  Observers: 
+    none
+  Source: (none)
+  Source output name: (none)
+  Release Data: Off
+  Data Released: False
+  Global Release Data: Off
+  PipelineMTime: 0
+  UpdateMTime: 1767
+  RealTimeStamp: 0 seconds 
+  LargestPossibleRegion: 
+    Dimension: 3
+    Index: [0, 0, 0]
+    Size: [216, 256, 291]
+  BufferedRegion: 
+    Dimension: 3
+    Index: [0, 0, 0]
+    Size: [216, 256, 291]
+  RequestedRegion: 
+    Dimension: 3
+    Index: [0, 0, 0]
+    Size: [216, 256, 291]
+  Spacing: [1, 1, 1]
+  Origin: [0, 293, 0]
+  Direction: 
+1 0 0
+0 -0 -1
+0 -1 -0
+
+  IndexToPointMatrix: 
+  1 0 0
+0 0 -1
+0 -1 0
+
+  PointToIndexMatrix: 
+  1 0 0
+0 0 -1
+0 -1 0
+
+  Inverse Direction: 
+  1 0 0
+0 0 -1
+0 -1 0
+
+  PixelContainer: 
+    ImportImageContainer (0x1e49e90)
+      RTTI typeinfo:   itk::ImportImageContainer<unsigned long, float>
+      Reference Count: 1
+      Modified Time: 1764
+      Debug: Off
+      Observers: 
+        none
+      Pointer: 0x7f5f118d3010
+      Container manages memory: true
+      Size: 16091136
+      Capacity: 16091136
+
+     Moving Image = Image (0x1e58040)
+  RTTI typeinfo:   itk::Image<float, 3u>
+  Reference Count: 2
+  Modified Time: 1939
+  Debug: Off
+  Observers: 
+    none
+  Source: (none)
+  Source output name: (none)
+  Release Data: Off
+  Data Released: False
+  Global Release Data: Off
+  PipelineMTime: 0
+  UpdateMTime: 1932
+  RealTimeStamp: 0 seconds 
+  LargestPossibleRegion: 
+    Dimension: 3
+    Index: [0, 0, 0]
+    Size: [256, 256, 264]
+  BufferedRegion: 
+    Dimension: 3
+    Index: [0, 0, 0]
+    Size: [256, 256, 264]
+  RequestedRegion: 
+    Dimension: 3
+    Index: [0, 0, 0]
+    Size: [256, 256, 264]
+  Spacing: [1, 1, 1]
+  Origin: [-0, 263, 0]
+  Direction: 
+1 0 0
+0 -0 -1
+0 -1 -0
+
+  IndexToPointMatrix: 
+  1 0 0
+0 0 -1
+0 -1 0
+
+  PointToIndexMatrix: 
+  1 0 0
+0 0 -1
+0 -1 0
+
+  Inverse Direction: 
+  1 0 0
+0 0 -1
+0 -1 0
+
+  PixelContainer: 
+    ImportImageContainer (0x1e58300)
+      RTTI typeinfo:   itk::ImportImageContainer<unsigned long, float>
+      Reference Count: 1
+      Modified Time: 1929
+      Debug: Off
+      Observers: 
+        none
+      Pointer: 0x7f5f0576e010
+      Container manages memory: true
+      Size: 17301504
+      Capacity: 17301504
+
+     Weighting = 1
+     Sampling Strategy = regular
+     NumberOfBins = 32
+     Radius = 1
+     Sampling percentage  = 0.25
+   Transform = Similarity
+     Gradient Step = 0.1
+     Update Field Sigma (voxel space) = 0
+     Total Field Sigma (voxel space) = 0
+     Update Field Time Sigma = 0
+     Total Field Time Sigma  = 0
+     Number of Time Indices = 0
+     Number of Time Point Samples = 0
+Stage 4 State
+   Metric = Mattes
+     Fixed Image = Image (0x1e438b0)
+  RTTI typeinfo:   itk::Image<float, 3u>
+  Reference Count: 2
+  Modified Time: 2106
+  Debug: Off
+  Observers: 
+    none
+  Source: (none)
+  Source output name: (none)
+  Release Data: Off
+  Data Released: False
+  Global Release Data: Off
+  PipelineMTime: 0
+  UpdateMTime: 2099
+  RealTimeStamp: 0 seconds 
+  LargestPossibleRegion: 
+    Dimension: 3
+    Index: [0, 0, 0]
+    Size: [216, 256, 291]
+  BufferedRegion: 
+    Dimension: 3
+    Index: [0, 0, 0]
+    Size: [216, 256, 291]
+  RequestedRegion: 
+    Dimension: 3
+    Index: [0, 0, 0]
+    Size: [216, 256, 291]
+  Spacing: [1, 1, 1]
+  Origin: [0, 293, 0]
+  Direction: 
+1 0 0
+0 -0 -1
+0 -1 -0
+
+  IndexToPointMatrix: 
+  1 0 0
+0 0 -1
+0 -1 0
+
+  PointToIndexMatrix: 
+  1 0 0
+0 0 -1
+0 -1 0
+
+  Inverse Direction: 
+  1 0 0
+0 0 -1
+0 -1 0
+
+  PixelContainer: 
+    ImportImageContainer (0x1e42e40)
+      RTTI typeinfo:   itk::ImportImageContainer<unsigned long, float>
+      Reference Count: 1
+      Modified Time: 2096
+      Debug: Off
+      Observers: 
+        none
+      Pointer: 0x7f5f0996f010
+      Container manages memory: true
+      Size: 16091136
+      Capacity: 16091136
+
+     Moving Image = Image (0x1e5f010)
+  RTTI typeinfo:   itk::Image<float, 3u>
+  Reference Count: 2
+  Modified Time: 2271
+  Debug: Off
+  Observers: 
+    none
+  Source: (none)
+  Source output name: (none)
+  Release Data: Off
+  Data Released: False
+  Global Release Data: Off
+  PipelineMTime: 0
+  UpdateMTime: 2264
+  RealTimeStamp: 0 seconds 
+  LargestPossibleRegion: 
+    Dimension: 3
+    Index: [0, 0, 0]
+    Size: [256, 256, 264]
+  BufferedRegion: 
+    Dimension: 3
+    Index: [0, 0, 0]
+    Size: [256, 256, 264]
+  RequestedRegion: 
+    Dimension: 3
+    Index: [0, 0, 0]
+    Size: [256, 256, 264]
+  Spacing: [1, 1, 1]
+  Origin: [-0, 263, 0]
+  Direction: 
+1 0 0
+0 -0 -1
+0 -1 -0
+
+  IndexToPointMatrix: 
+  1 0 0
+0 0 -1
+0 -1 0
+
+  PointToIndexMatrix: 
+  1 0 0
+0 0 -1
+0 -1 0
+
+  Inverse Direction: 
+  1 0 0
+0 0 -1
+0 -1 0
+
+  PixelContainer: 
+    ImportImageContainer (0x1e5f2d0)
+      RTTI typeinfo:   itk::ImportImageContainer<unsigned long, float>
+      Reference Count: 1
+      Modified Time: 2261
+      Debug: Off
+      Observers: 
+        none
+      Pointer: 0x7f5efd80a010
+      Container manages memory: true
+      Size: 17301504
+      Capacity: 17301504
+
+     Weighting = 1
+     Sampling Strategy = regular
+     NumberOfBins = 32
+     Radius = 1
+     Sampling percentage  = 0.25
+   Transform = SyN
+     Gradient Step = 0.25
+     Update Field Sigma (voxel space) = 3
+     Total Field Sigma (voxel space) = 0
+     Update Field Time Sigma = 0
+     Total Field Time Sigma  = 0
+     Number of Time Indices = 0
+     Number of Time Point Samples = 0
+Registration using 4 total stages.
+
+Stage 0
+  preprocessing:  winsorizing the image intensities
+  preprocessing:  histogram matching the images
+  iterations = 1200x1200x0
+  convergence threshold = 1e-08
+  convergence window size = 10
+  number of levels = 3
+  shrink factors per level: [4, 2, 1]
+  smoothing sigmas per level: [2, 1, 0]
+  regular sampling (percentage = 0.25)
+  using the Mattes MI metric (number of bins = 32)
+
+*** Running translation registration ***
+
+  Current level = 1 of 3
+    number of iterations = 1200
+    shrink factors = 4
+    smoothing sigmas = 2
+    required fixed parameters = []
+      Iteration 1: metric value = -0.643584, convergence value = 1.79769e+308
+      Iteration 2: metric value = -0.64578, convergence value = 1.79769e+308
+      Iteration 3: metric value = -0.648848, convergence value = 1.79769e+308
+      Iteration 4: metric value = -0.652212, convergence value = 1.79769e+308
+      Iteration 5: metric value = -0.654511, convergence value = 1.79769e+308
+      Iteration 6: metric value = -0.654769, convergence value = 1.79769e+308
+      Iteration 7: metric value = -0.654838, convergence value = 1.79769e+308
+      Iteration 8: metric value = -0.654847, convergence value = 1.79769e+308
+      Iteration 9: metric value = -0.654827, convergence value = 1.79769e+308
+      Iteration 10: metric value = -0.654801, convergence value = 0.00107293
+      Iteration 11: metric value = -0.65481, convergence value = 0.000643566
+      Iteration 12: metric value = -0.654799, convergence value = 0.000307205
+      Iteration 13: metric value = -0.654807, convergence value = 9.59476e-05
+      Iteration 14: metric value = -0.654821, convergence value = 9.442e-06
+      Iteration 15: metric value = -0.654816, convergence value = 2.56895e-08
+  Current level = 2 of 3
+    number of iterations = 1200
+    shrink factors = 2
+    smoothing sigmas = 1
+    required fixed parameters = []
+      Iteration 1: metric value = -0.611796, convergence value = 1.79769e+308
+      Iteration 2: metric value = -0.611847, convergence value = 1.79769e+308
+      Iteration 3: metric value = -0.611866, convergence value = 1.79769e+308
+      Iteration 4: metric value = -0.611867, convergence value = 1.79769e+308
+      Iteration 5: metric value = -0.611869, convergence value = 1.79769e+308
+      Iteration 6: metric value = -0.611868, convergence value = 1.79769e+308
+      Iteration 7: metric value = -0.611868, convergence value = 1.79769e+308
+      Iteration 8: metric value = -0.611868, convergence value = 1.79769e+308
+      Iteration 9: metric value = -0.611867, convergence value = 1.79769e+308
+      Iteration 10: metric value = -0.611867, convergence value = 4.64769e-06
+      Iteration 11: metric value = -0.611867, convergence value = 1.28675e-06
+      Iteration 12: metric value = -0.611867, convergence value = 3.52661e-07
+      Iteration 13: metric value = -0.611867, convergence value = 2.3598e-07
+      Iteration 14: metric value = -0.611867, convergence value = 1.76777e-07
+      Iteration 15: metric value = -0.611867, convergence value = 1.97794e-07
+      Iteration 16: metric value = -0.611867, convergence value = 2.00178e-07
+      Iteration 17: metric value = -0.611867, convergence value = 2.05663e-07
+      Iteration 18: metric value = -0.611867, convergence value = 2.12901e-07
+      Iteration 19: metric value = -0.611867, convergence value = 2.01693e-07
+      Iteration 20: metric value = -0.611867, convergence value = 1.91609e-07
+      Iteration 21: metric value = -0.611867, convergence value = 1.82485e-07
+      Iteration 22: metric value = -0.611867, convergence value = 1.74191e-07
+      Iteration 23: metric value = -0.611867, convergence value = 1.66618e-07
+      Iteration 24: metric value = -0.611867, convergence value = 1.59677e-07
+      Iteration 25: metric value = -0.611867, convergence value = 1.5329e-07
+      Iteration 26: metric value = -0.611867, convergence value = 1.47395e-07
+      Iteration 27: metric value = -0.611867, convergence value = 1.41936e-07
+      Iteration 28: metric value = -0.611867, convergence value = 1.36866e-07
+      Iteration 29: metric value = -0.611867, convergence value = 1.32147e-07
+      Iteration 30: metric value = -0.611867, convergence value = 1.27742e-07
+      Iteration 31: metric value = -0.611867, convergence value = 1.23621e-07
+      Iteration 32: metric value = -0.611867, convergence value = 1.19758e-07
+      Iteration 33: metric value = -0.611867, convergence value = 1.16129e-07
+      Iteration 34: metric value = -0.611867, convergence value = 1.12714e-07
+      Iteration 35: metric value = -0.611867, convergence value = 1.09493e-07
+      Iteration 36: metric value = -0.611867, convergence value = 1.06452e-07
+      Iteration 37: metric value = -0.611867, convergence value = 1.03575e-07
+      Iteration 38: metric value = -0.611867, convergence value = 1.00849e-07
+      Iteration 39: metric value = -0.611867, convergence value = 9.82632e-08
+      Iteration 40: metric value = -0.611867, convergence value = 9.58066e-08
+      Iteration 41: metric value = -0.611867, convergence value = 9.34699e-08
+      Iteration 42: metric value = -0.611867, convergence value = 9.12444e-08
+      Iteration 43: metric value = -0.611867, convergence value = 8.91224e-08
+      Iteration 44: metric value = -0.611867, convergence value = 8.70969e-08
+      Iteration 45: metric value = -0.611867, convergence value = 8.51614e-08
+      Iteration 46: metric value = -0.611867, convergence value = 8.33101e-08
+      Iteration 47: metric value = -0.611867, convergence value = 8.15375e-08
+      Iteration 48: metric value = -0.611867, convergence value = 7.98388e-08
+      Iteration 49: metric value = -0.611867, convergence value = 7.82095e-08
+      Iteration 50: metric value = -0.611867, convergence value = 7.66453e-08
+      Iteration 51: metric value = -0.611867, convergence value = 7.51424e-08
+      Iteration 52: metric value = -0.611867, convergence value = 7.36974e-08
+      Iteration 53: metric value = -0.611867, convergence value = 7.23069e-08
+      Iteration 54: metric value = -0.611867, convergence value = 7.09678e-08
+      Iteration 55: metric value = -0.611867, convergence value = 6.96775e-08
+      Iteration 56: metric value = -0.611867, convergence value = 6.84333e-08
+      Iteration 57: metric value = -0.611867, convergence value = 6.72327e-08
+      Iteration 58: metric value = -0.611867, convergence value = 6.60735e-08
+      Iteration 59: metric value = -0.611867, convergence value = 6.49536e-08
+      Iteration 60: metric value = -0.611867, convergence value = 6.3871e-08
+      Iteration 61: metric value = -0.611867, convergence value = 6.2824e-08
+      Iteration 62: metric value = -0.611867, convergence value = 6.18107e-08
+      Iteration 63: metric value = -0.611867, convergence value = 6.08296e-08
+      Iteration 64: metric value = -0.611867, convergence value = 5.98791e-08
+      Iteration 65: metric value = -0.611867, convergence value = 5.89579e-08
+      Iteration 66: metric value = -0.611867, convergence value = 5.80646e-08
+      Iteration 67: metric value = -0.611867, convergence value = 5.71979e-08
+      Iteration 68: metric value = -0.611867, convergence value = 5.63568e-08
+      Iteration 69: metric value = -0.611867, convergence value = 5.554e-08
+      Iteration 70: metric value = -0.611867, convergence value = 5.47466e-08
+      Iteration 71: metric value = -0.611867, convergence value = 5.39755e-08
+      Iteration 72: metric value = -0.611867, convergence value = 5.32258e-08
+      Iteration 73: metric value = -0.611867, convergence value = 5.24967e-08
+      Iteration 74: metric value = -0.611867, convergence value = 5.17873e-08
+      Iteration 75: metric value = -0.611867, convergence value = 5.10968e-08
+      Iteration 76: metric value = -0.611867, convergence value = 5.04245e-08
+      Iteration 77: metric value = -0.611867, convergence value = 4.97696e-08
+      Iteration 78: metric value = -0.611867, convergence value = 4.91315e-08
+      Iteration 79: metric value = -0.611867, convergence value = 4.85096e-08
+      Iteration 80: metric value = -0.611867, convergence value = 4.79032e-08
+      Iteration 81: metric value = -0.611867, convergence value = 4.73119e-08
+      Iteration 82: metric value = -0.611867, convergence value = 4.67349e-08
+      Iteration 83: metric value = -0.611867, convergence value = 4.61718e-08
+      Iteration 84: metric value = -0.611867, convergence value = 4.56221e-08
+      Iteration 85: metric value = -0.611867, convergence value = 4.50854e-08
+      Iteration 86: metric value = -0.611867, convergence value = 4.45612e-08
+      Iteration 87: metric value = -0.611867, convergence value = 4.4049e-08
+      Iteration 88: metric value = -0.611867, convergence value = 4.35484e-08
+      Iteration 89: metric value = -0.611867, convergence value = 4.30591e-08
+      Iteration 90: metric value = -0.611867, convergence value = 4.25807e-08
+      Iteration 91: metric value = -0.611867, convergence value = 4.21127e-08
+      Iteration 92: metric value = -0.611867, convergence value = 4.1655e-08
+      Iteration 93: metric value = -0.611867, convergence value = 4.12071e-08
+      Iteration 94: metric value = -0.611867, convergence value = 4.07687e-08
+      Iteration 95: metric value = -0.611867, convergence value = 4.03396e-08
+      Iteration 96: metric value = -0.611867, convergence value = 3.99194e-08
+      Iteration 97: metric value = -0.611867, convergence value = 3.95078e-08
+      Iteration 98: metric value = -0.611867, convergence value = 3.91047e-08
+      Iteration 99: metric value = -0.611867, convergence value = 3.87097e-08
+      Iteration 100: metric value = -0.611867, convergence value = 3.83226e-08
+      Iteration 101: metric value = -0.611867, convergence value = 3.79432e-08
+      Iteration 102: metric value = -0.611867, convergence value = 3.75712e-08
+      Iteration 103: metric value = -0.611867, convergence value = 3.72064e-08
+      Iteration 104: metric value = -0.611867, convergence value = 3.68486e-08
+      Iteration 105: metric value = -0.611867, convergence value = 3.64977e-08
+      Iteration 106: metric value = -0.611867, convergence value = 3.61534e-08
+      Iteration 107: metric value = -0.611867, convergence value = 3.58155e-08
+      Iteration 108: metric value = -0.611867, convergence value = 3.54839e-08
+      Iteration 109: metric value = -0.611867, convergence value = 3.51583e-08
+      Iteration 110: metric value = -0.611867, convergence value = 3.48387e-08
+      Iteration 111: metric value = -0.611867, convergence value = 3.45249e-08
+      Iteration 112: metric value = -0.611867, convergence value = 3.42166e-08
+      Iteration 113: metric value = -0.611867, convergence value = 3.39138e-08
+      Iteration 114: metric value = -0.611867, convergence value = 3.36163e-08
+      Iteration 115: metric value = -0.611867, convergence value = 3.3324e-08
+      Iteration 116: metric value = -0.611867, convergence value = 3.30367e-08
+      Iteration 117: metric value = -0.611867, convergence value = 3.27543e-08
+      Iteration 118: metric value = -0.611867, convergence value = 3.24768e-08
+      Iteration 119: metric value = -0.611867, convergence value = 3.22038e-08
+      Iteration 120: metric value = -0.611867, convergence value = 3.19355e-08
+      Iteration 121: metric value = -0.611867, convergence value = 3.16715e-08
+      Iteration 122: metric value = -0.611867, convergence value = 3.14119e-08
+      Iteration 123: metric value = -0.611867, convergence value = 3.11566e-08
+      Iteration 124: metric value = -0.611867, convergence value = 3.09053e-08
+      Iteration 125: metric value = -0.611867, convergence value = 3.06581e-08
+      Iteration 126: metric value = -0.611867, convergence value = 3.04147e-08
+      Iteration 127: metric value = -0.611867, convergence value = 3.01753e-08
+      Iteration 128: metric value = -0.611867, convergence value = 2.99395e-08
+      Iteration 129: metric value = -0.611867, convergence value = 2.97074e-08
+      Iteration 130: metric value = -0.611867, convergence value = 2.94789e-08
+      Iteration 131: metric value = -0.611867, convergence value = 2.92539e-08
+      Iteration 132: metric value = -0.611867, convergence value = 2.90323e-08
+      Iteration 133: metric value = -0.611867, convergence value = 2.8814e-08
+      Iteration 134: metric value = -0.611867, convergence value = 2.85989e-08
+      Iteration 135: metric value = -0.611867, convergence value = 2.83871e-08
+      Iteration 136: metric value = -0.611867, convergence value = 2.81784e-08
+      Iteration 137: metric value = -0.611867, convergence value = 2.79727e-08
+      Iteration 138: metric value = -0.611867, convergence value = 2.777e-08
+      Iteration 139: metric value = -0.611867, convergence value = 2.75702e-08
+      Iteration 140: metric value = -0.611867, convergence value = 2.73733e-08
+      Iteration 141: metric value = -0.611867, convergence value = 2.71791e-08
+      Iteration 142: metric value = -0.611867, convergence value = 2.69877e-08
+      Iteration 143: metric value = -0.611867, convergence value = 2.6799e-08
+      Iteration 144: metric value = -0.611867, convergence value = 2.66129e-08
+      Iteration 145: metric value = -0.611867, convergence value = 2.64294e-08
+      Iteration 146: metric value = -0.611867, convergence value = 2.62483e-08
+      Iteration 147: metric value = -0.611867, convergence value = 2.60698e-08
+      Iteration 148: metric value = -0.611867, convergence value = 2.58936e-08
+      Iteration 149: metric value = -0.611867, convergence value = 2.57198e-08
+      Iteration 150: metric value = -0.611867, convergence value = 2.55484e-08
+      Iteration 151: metric value = -0.611867, convergence value = 2.53792e-08
+      Iteration 152: metric value = -0.611867, convergence value = 2.52122e-08
+      Iteration 153: metric value = -0.611867, convergence value = 2.50474e-08
+      Iteration 154: metric value = -0.611867, convergence value = 2.48848e-08
+      Iteration 155: metric value = -0.611867, convergence value = 2.47242e-08
+      Iteration 156: metric value = -0.611867, convergence value = 2.45657e-08
+      Iteration 157: metric value = -0.611867, convergence value = 2.44093e-08
+      Iteration 158: metric value = -0.611867, convergence value = 2.42548e-08
+      Iteration 159: metric value = -0.611867, convergence value = 2.41022e-08
+      Iteration 160: metric value = -0.611867, convergence value = 2.39516e-08
+      Iteration 161: metric value = -0.611867, convergence value = 2.38028e-08
+      Iteration 162: metric value = -0.611867, convergence value = 2.36559e-08
+      Iteration 163: metric value = -0.611867, convergence value = 2.35108e-08
+      Iteration 164: metric value = -0.611867, convergence value = 2.33674e-08
+      Iteration 165: metric value = -0.611867, convergence value = 2.32258e-08
+      Iteration 166: metric value = -0.611867, convergence value = 2.30859e-08
+      Iteration 167: metric value = -0.611867, convergence value = 2.29476e-08
+      Iteration 168: metric value = -0.611867, convergence value = 2.2811e-08
+      Iteration 169: metric value = -0.611867, convergence value = 2.26761e-08
+      Iteration 170: metric value = -0.611867, convergence value = 2.25427e-08
+      Iteration 171: metric value = -0.611867, convergence value = 2.24109e-08
+      Iteration 172: metric value = -0.611867, convergence value = 2.22806e-08
+      Iteration 173: metric value = -0.611867, convergence value = 2.21518e-08
+      Iteration 174: metric value = -0.611867, convergence value = 2.20245e-08
+      Iteration 175: metric value = -0.611867, convergence value = 2.18986e-08
+      Iteration 176: metric value = -0.611867, convergence value = 2.17742e-08
+      Iteration 177: metric value = -0.611867, convergence value = 2.16512e-08
+      Iteration 178: metric value = -0.611867, convergence value = 2.15295e-08
+      Iteration 179: metric value = -0.611867, convergence value = 2.14093e-08
+      Iteration 180: metric value = -0.611867, convergence value = 2.12903e-08
+      Iteration 181: metric value = -0.611867, convergence value = 2.11727e-08
+      Iteration 182: metric value = -0.611867, convergence value = 2.10564e-08
+      Iteration 183: metric value = -0.611867, convergence value = 2.09413e-08
+      Iteration 184: metric value = -0.611867, convergence value = 2.08275e-08
+      Iteration 185: metric value = -0.611867, convergence value = 2.07149e-08
+      Iteration 186: metric value = -0.611867, convergence value = 2.06035e-08
+      Iteration 187: metric value = -0.611867, convergence value = 2.04933e-08
+      Iteration 188: metric value = -0.611867, convergence value = 2.03843e-08
+      Iteration 189: metric value = -0.611867, convergence value = 2.02765e-08
+      Iteration 190: metric value = -0.611867, convergence value = 2.01698e-08
+      Iteration 191: metric value = -0.611867, convergence value = 2.00642e-08
+      Iteration 192: metric value = -0.611867, convergence value = 1.99597e-08
+      Iteration 193: metric value = -0.611867, convergence value = 1.98562e-08
+      Iteration 194: metric value = -0.611867, convergence value = 1.97539e-08
+      Iteration 195: metric value = -0.611867, convergence value = 1.96526e-08
+      Iteration 196: metric value = -0.611867, convergence value = 1.95523e-08
+      Iteration 197: metric value = -0.611867, convergence value = 1.94531e-08
+      Iteration 198: metric value = -0.611867, convergence value = 1.93548e-08
+      Iteration 199: metric value = -0.611867, convergence value = 1.92576e-08
+      Iteration 200: metric value = -0.611867, convergence value = 1.91613e-08
+      Iteration 201: metric value = -0.611867, convergence value = 1.90659e-08
+      Iteration 202: metric value = -0.611867, convergence value = 1.89716e-08
+      Iteration 203: metric value = -0.611867, convergence value = 1.88781e-08
+      Iteration 204: metric value = -0.611867, convergence value = 1.87856e-08
+      Iteration 205: metric value = -0.611867, convergence value = 1.86939e-08
+      Iteration 206: metric value = -0.611867, convergence value = 1.86032e-08
+      Iteration 207: metric value = -0.611867, convergence value = 1.85133e-08
+      Iteration 208: metric value = -0.611867, convergence value = 1.84243e-08
+      Iteration 209: metric value = -0.611867, convergence value = 1.83361e-08
+      Iteration 210: metric value = -0.611867, convergence value = 1.82488e-08
+      Iteration 211: metric value = -0.611867, convergence value = 1.81623e-08
+      Iteration 212: metric value = -0.611867, convergence value = 1.80767e-08
+      Iteration 213: metric value = -0.611867, convergence value = 1.79918e-08
+      Iteration 214: metric value = -0.611867, convergence value = 1.79077e-08
+      Iteration 215: metric value = -0.611867, convergence value = 1.78244e-08
+      Iteration 216: metric value = -0.611867, convergence value = 1.77419e-08
+      Iteration 217: metric value = -0.611867, convergence value = 1.76602e-08
+      Iteration 218: metric value = -0.611867, convergence value = 1.75792e-08
+      Iteration 219: metric value = -0.611867, convergence value = 1.74989e-08
+      Iteration 220: metric value = -0.611867, convergence value = 1.74193e-08
+      Iteration 221: metric value = -0.611867, convergence value = 1.73405e-08
+      Iteration 222: metric value = -0.611867, convergence value = 1.72624e-08
+      Iteration 223: metric value = -0.611867, convergence value = 1.7185e-08
+      Iteration 224: metric value = -0.611867, convergence value = 1.71083e-08
+      Iteration 225: metric value = -0.611867, convergence value = 1.70322e-08
+      Iteration 226: metric value = -0.611867, convergence value = 1.69569e-08
+      Iteration 227: metric value = -0.611867, convergence value = 1.68822e-08
+      Iteration 228: metric value = -0.611867, convergence value = 1.68081e-08
+      Iteration 229: metric value = -0.611867, convergence value = 1.67347e-08
+      Iteration 230: metric value = -0.611867, convergence value = 1.6662e-08
+      Iteration 231: metric value = -0.611867, convergence value = 1.65898e-08
+      Iteration 232: metric value = -0.611867, convergence value = 1.65183e-08
+      Iteration 233: metric value = -0.611867, convergence value = 1.64474e-08
+      Iteration 234: metric value = -0.611867, convergence value = 1.63772e-08
+      Iteration 235: metric value = -0.611867, convergence value = 1.63075e-08
+      Iteration 236: metric value = -0.611867, convergence value = 1.62384e-08
+      Iteration 237: metric value = -0.611867, convergence value = 1.61699e-08
+      Iteration 238: metric value = -0.611867, convergence value = 1.61019e-08
+      Iteration 239: metric value = -0.611867, convergence value = 1.60345e-08
+      Iteration 240: metric value = -0.611867, convergence value = 1.59677e-08
+      Iteration 241: metric value = -0.611867, convergence value = 1.59015e-08
+      Iteration 242: metric value = -0.611867, convergence value = 1.58358e-08
+      Iteration 243: metric value = -0.611867, convergence value = 1.57706e-08
+      Iteration 244: metric value = -0.611867, convergence value = 1.5706e-08
+      Iteration 245: metric value = -0.611867, convergence value = 1.56419e-08
+      Iteration 246: metric value = -0.611867, convergence value = 1.55783e-08
+      Iteration 247: metric value = -0.611867, convergence value = 1.55152e-08
+      Iteration 248: metric value = -0.611867, convergence value = 1.54526e-08
+      Iteration 249: metric value = -0.611867, convergence value = 1.53906e-08
+      Iteration 250: metric value = -0.611867, convergence value = 1.5329e-08
+      Iteration 251: metric value = -0.611867, convergence value = 1.52679e-08
+      Iteration 252: metric value = -0.611867, convergence value = 1.52074e-08
+      Iteration 253: metric value = -0.611867, convergence value = 1.51473e-08
+      Iteration 254: metric value = -0.611867, convergence value = 1.50876e-08
+      Iteration 255: metric value = -0.611867, convergence value = 1.50284e-08
+      Iteration 256: metric value = -0.611867, convergence value = 1.49697e-08
+      Iteration 257: metric value = -0.611867, convergence value = 1.49115e-08
+      Iteration 258: metric value = -0.611867, convergence value = 1.48537e-08
+      Iteration 259: metric value = -0.611867, convergence value = 1.47964e-08
+      Iteration 260: metric value = -0.611867, convergence value = 1.47394e-08
+      Iteration 261: metric value = -0.611867, convergence value = 1.4683e-08
+      Iteration 262: metric value = -0.611867, convergence value = 1.46269e-08
+      Iteration 263: metric value = -0.611867, convergence value = 1.45713e-08
+      Iteration 264: metric value = -0.611867, convergence value = 1.45161e-08
+      Iteration 265: metric value = -0.611867, convergence value = 1.44613e-08
+      Iteration 266: metric value = -0.611867, convergence value = 1.4407e-08
+      Iteration 267: metric value = -0.611867, convergence value = 1.4353e-08
+      Iteration 268: metric value = -0.611867, convergence value = 1.42995e-08
+      Iteration 269: metric value = -0.611867, convergence value = 1.42463e-08
+      Iteration 270: metric value = -0.611867, convergence value = 1.41935e-08
+      Iteration 271: metric value = -0.611867, convergence value = 1.41412e-08
+      Iteration 272: metric value = -0.611867, convergence value = 1.40892e-08
+      Iteration 273: metric value = -0.611867, convergence value = 1.40376e-08
+      Iteration 274: metric value = -0.611867, convergence value = 1.39863e-08
+      Iteration 275: metric value = -0.611867, convergence value = 1.39355e-08
+      Iteration 276: metric value = -0.611867, convergence value = 1.3885e-08
+      Iteration 277: metric value = -0.611867, convergence value = 1.38349e-08
+      Iteration 278: metric value = -0.611867, convergence value = 1.37851e-08
+      Iteration 279: metric value = -0.611867, convergence value = 1.37357e-08
+      Iteration 280: metric value = -0.611867, convergence value = 1.36866e-08
+      Iteration 281: metric value = -0.611867, convergence value = 1.36379e-08
+      Iteration 282: metric value = -0.611867, convergence value = 1.35896e-08
+      Iteration 283: metric value = -0.611867, convergence value = 1.35415e-08
+      Iteration 284: metric value = -0.611867, convergence value = 1.34939e-08
+      Iteration 285: metric value = -0.611867, convergence value = 1.34465e-08
+      Iteration 286: metric value = -0.611867, convergence value = 1.33995e-08
+      Iteration 287: metric value = -0.611867, convergence value = 1.33528e-08
+      Iteration 288: metric value = -0.611867, convergence value = 1.33064e-08
+      Iteration 289: metric value = -0.611867, convergence value = 1.32604e-08
+      Iteration 290: metric value = -0.611867, convergence value = 1.32147e-08
+      Iteration 291: metric value = -0.611867, convergence value = 1.31693e-08
+      Iteration 292: metric value = -0.611867, convergence value = 1.31242e-08
+      Iteration 293: metric value = -0.611867, convergence value = 1.30794e-08
+      Iteration 294: metric value = -0.611867, convergence value = 1.30349e-08
+      Iteration 295: metric value = -0.611867, convergence value = 1.29907e-08
+      Iteration 296: metric value = -0.611867, convergence value = 1.29468e-08
+      Iteration 297: metric value = -0.611867, convergence value = 1.29032e-08
+      Iteration 298: metric value = -0.611867, convergence value = 1.28599e-08
+      Iteration 299: metric value = -0.611867, convergence value = 1.28169e-08
+      Iteration 300: metric value = -0.611867, convergence value = 1.27742e-08
+      Iteration 301: metric value = -0.611867, convergence value = 1.27317e-08
+      Iteration 302: metric value = -0.611867, convergence value = 1.26896e-08
+      Iteration 303: metric value = -0.611867, convergence value = 1.26477e-08
+      Iteration 304: metric value = -0.611867, convergence value = 1.26061e-08
+      Iteration 305: metric value = -0.611867, convergence value = 1.25648e-08
+      Iteration 306: metric value = -0.611867, convergence value = 1.25237e-08
+      Iteration 307: metric value = -0.611867, convergence value = 1.24829e-08
+      Iteration 308: metric value = -0.611867, convergence value = 1.24424e-08
+      Iteration 309: metric value = -0.611867, convergence value = 1.24021e-08
+      Iteration 310: metric value = -0.611867, convergence value = 1.23621e-08
+      Iteration 311: metric value = -0.611867, convergence value = 1.23224e-08
+      Iteration 312: metric value = -0.611867, convergence value = 1.22829e-08
+      Iteration 313: metric value = -0.611867, convergence value = 1.22436e-08
+      Iteration 314: metric value = -0.611867, convergence value = 1.22046e-08
+      Iteration 315: metric value = -0.611867, convergence value = 1.21659e-08
+      Iteration 316: metric value = -0.611867, convergence value = 1.21274e-08
+      Iteration 317: metric value = -0.611867, convergence value = 1.20891e-08
+      Iteration 318: metric value = -0.611867, convergence value = 1.20511e-08
+      Iteration 319: metric value = -0.611867, convergence value = 1.20133e-08
+      Iteration 320: metric value = -0.611867, convergence value = 1.19758e-08
+      Iteration 321: metric value = -0.611867, convergence value = 1.19385e-08
+      Iteration 322: metric value = -0.611867, convergence value = 1.19014e-08
+      Iteration 323: metric value = -0.611867, convergence value = 1.18646e-08
+      Iteration 324: metric value = -0.611867, convergence value = 1.18279e-08
+      Iteration 325: metric value = -0.611867, convergence value = 1.17916e-08
+      Iteration 326: metric value = -0.611867, convergence value = 1.17554e-08
+      Iteration 327: metric value = -0.611867, convergence value = 1.17194e-08
+      Iteration 328: metric value = -0.611867, convergence value = 1.16837e-08
+      Iteration 329: metric value = -0.611867, convergence value = 1.16482e-08
+      Iteration 330: metric value = -0.611867, convergence value = 1.16129e-08
+      Iteration 331: metric value = -0.611867, convergence value = 1.15778e-08
+      Iteration 332: metric value = -0.611867, convergence value = 1.15429e-08
+      Iteration 333: metric value = -0.611867, convergence value = 1.15083e-08
+      Iteration 334: metric value = -0.611867, convergence value = 1.14738e-08
+      Iteration 335: metric value = -0.611867, convergence value = 1.14396e-08
+      Iteration 336: metric value = -0.611867, convergence value = 1.14055e-08
+      Iteration 337: metric value = -0.611867, convergence value = 1.13717e-08
+      Iteration 338: metric value = -0.611867, convergence value = 1.1338e-08
+      Iteration 339: metric value = -0.611867, convergence value = 1.13046e-08
+      Iteration 340: metric value = -0.611867, convergence value = 1.12713e-08
+      Iteration 341: metric value = -0.611867, convergence value = 1.12383e-08
+      Iteration 342: metric value = -0.611867, convergence value = 1.12054e-08
+      Iteration 343: metric value = -0.611867, convergence value = 1.11728e-08
+      Iteration 344: metric value = -0.611867, convergence value = 1.11403e-08
+      Iteration 345: metric value = -0.611867, convergence value = 1.1108e-08
+      Iteration 346: metric value = -0.611867, convergence value = 1.10759e-08
+      Iteration 347: metric value = -0.611867, convergence value = 1.1044e-08
+      Iteration 348: metric value = -0.611867, convergence value = 1.10122e-08
+      Iteration 349: metric value = -0.611867, convergence value = 1.09807e-08
+      Iteration 350: metric value = -0.611867, convergence value = 1.09493e-08
+      Iteration 351: metric value = -0.611867, convergence value = 1.09181e-08
+      Iteration 352: metric value = -0.611867, convergence value = 1.08871e-08
+      Iteration 353: metric value = -0.611867, convergence value = 1.08562e-08
+      Iteration 354: metric value = -0.611867, convergence value = 1.08256e-08
+      Iteration 355: metric value = -0.611867, convergence value = 1.07951e-08
+      Iteration 356: metric value = -0.611867, convergence value = 1.07648e-08
+      Iteration 357: metric value = -0.611867, convergence value = 1.07346e-08
+      Iteration 358: metric value = -0.611867, convergence value = 1.07046e-08
+      Iteration 359: metric value = -0.611867, convergence value = 1.06748e-08
+      Iteration 360: metric value = -0.611867, convergence value = 1.06451e-08
+      Iteration 361: metric value = -0.611867, convergence value = 1.06157e-08
+      Iteration 362: metric value = -0.611867, convergence value = 1.05863e-08
+      Iteration 363: metric value = -0.611867, convergence value = 1.05572e-08
+      Iteration 364: metric value = -0.611867, convergence value = 1.05282e-08
+      Iteration 365: metric value = -0.611867, convergence value = 1.04993e-08
+      Iteration 366: metric value = -0.611867, convergence value = 1.04706e-08
+      Iteration 367: metric value = -0.611867, convergence value = 1.04421e-08
+      Iteration 368: metric value = -0.611867, convergence value = 1.04137e-08
+      Iteration 369: metric value = -0.611867, convergence value = 1.03855e-08
+      Iteration 370: metric value = -0.611867, convergence value = 1.03574e-08
+      Iteration 371: metric value = -0.611867, convergence value = 1.03295e-08
+      Iteration 372: metric value = -0.611867, convergence value = 1.03018e-08
+      Iteration 373: metric value = -0.611867, convergence value = 1.02741e-08
+      Iteration 374: metric value = -0.611867, convergence value = 1.02467e-08
+      Iteration 375: metric value = -0.611867, convergence value = 1.02193e-08
+      Iteration 376: metric value = -0.611867, convergence value = 1.01922e-08
+      Iteration 377: metric value = -0.611867, convergence value = 1.01651e-08
+      Iteration 378: metric value = -0.611867, convergence value = 1.01382e-08
+      Iteration 379: metric value = -0.611867, convergence value = 1.01115e-08
+      Iteration 380: metric value = -0.611867, convergence value = 1.00849e-08
+      Iteration 381: metric value = -0.611867, convergence value = 1.00584e-08
+      Iteration 382: metric value = -0.611867, convergence value = 1.00321e-08
+      Iteration 383: metric value = -0.611867, convergence value = 1.00059e-08
+  Current level = 3 of 3
+    number of iterations = 0
+    shrink factors = 1
+    smoothing sigmas = 0
+    required fixed parameters = []
+      Iteration 1: metric value = -0.572, convergence value = 1.79769e+308
+  Elapsed time (stage 0): 912.813
+
+
+Stage 1
+  preprocessing:  winsorizing the image intensities
+  preprocessing:  histogram matching the images
+  iterations = 1200x1200x0
+  convergence threshold = 1e-08
+  convergence window size = 10
+  number of levels = 3
+  shrink factors per level: [4, 2, 1]
+  smoothing sigmas per level: [2, 1, 0]
+  regular sampling (percentage = 0.25)
+  using the Mattes MI metric (number of bins = 32)
+
+*** Running rigid registration ***
+
+  Current level = 1 of 3
+    number of iterations = 1200
+    shrink factors = 4
+    smoothing sigmas = 2
+    required fixed parameters = []
+      Iteration 1: metric value = -0.654618, convergence value = 1.79769e+308
+      Iteration 2: metric value = -0.654808, convergence value = 1.79769e+308
+      Iteration 3: metric value = -0.654839, convergence value = 1.79769e+308
+      Iteration 4: metric value = -0.654891, convergence value = 1.79769e+308
+      Iteration 5: metric value = -0.654979, convergence value = 1.79769e+308
+      Iteration 6: metric value = -0.655078, convergence value = 1.79769e+308
+      Iteration 7: metric value = -0.655483, convergence value = 1.79769e+308
+      Iteration 8: metric value = -0.655493, convergence value = 1.79769e+308
+      Iteration 9: metric value = -0.655489, convergence value = 1.79769e+308
+      Iteration 10: metric value = -0.655469, convergence value = 9.57727e-05
+      Iteration 11: metric value = -0.655462, convergence value = 7.65706e-05
+      Iteration 12: metric value = -0.655468, convergence value = 6.05568e-05
+      Iteration 13: metric value = -0.655459, convergence value = 4.22638e-05
+      Iteration 14: metric value = -0.655465, convergence value = 2.47569e-05
+      Iteration 15: metric value = -0.655456, convergence value = 9.7307e-06
+  Current level = 2 of 3
+    number of iterations = 1200
+    shrink factors = 2
+    smoothing sigmas = 1
+    required fixed parameters = []
+      Iteration 1: metric value = -0.612246, convergence value = 1.79769e+308
+      Iteration 2: metric value = -0.612391, convergence value = 1.79769e+308
+      Iteration 3: metric value = -0.612423, convergence value = 1.79769e+308
+      Iteration 4: metric value = -0.612445, convergence value = 1.79769e+308
+      Iteration 5: metric value = -0.612471, convergence value = 1.79769e+308
+      Iteration 6: metric value = -0.612547, convergence value = 1.79769e+308
+      Iteration 7: metric value = -0.612627, convergence value = 1.79769e+308
+      Iteration 8: metric value = -0.612813, convergence value = 1.79769e+308
+      Iteration 9: metric value = -0.612894, convergence value = 1.79769e+308
+      Iteration 10: metric value = -0.612896, convergence value = 6.81693e-05
+      Iteration 11: metric value = -0.612927, convergence value = 6.10069e-05
+      Iteration 12: metric value = -0.613073, convergence value = 6.07137e-05
+      Iteration 13: metric value = -0.61329, convergence value = 6.36842e-05
+      Iteration 14: metric value = -0.613292, convergence value = 6.1127e-05
+      Iteration 15: metric value = -0.613293, convergence value = 5.43888e-05
+      Iteration 16: metric value = -0.613292, convergence value = 4.58022e-05
+      Iteration 17: metric value = -0.613291, convergence value = 3.59874e-05
+      Iteration 18: metric value = -0.613291, convergence value = 2.8579e-05
+      Iteration 19: metric value = -0.61329, convergence value = 2.13522e-05
+      Iteration 20: metric value = -0.61329, convergence value = 1.29929e-05
+      Iteration 21: metric value = -0.613288, convergence value = 4.86574e-06
+  Current level = 3 of 3
+    number of iterations = 0
+    shrink factors = 1
+    smoothing sigmas = 0
+    required fixed parameters = []
+      Iteration 1: metric value = -0.573178, convergence value = 1.79769e+308
+  Elapsed time (stage 1): 115.087
+
+
+Stage 2
+  preprocessing:  winsorizing the image intensities
+  preprocessing:  histogram matching the images
+  iterations = 1200x1200x0
+  convergence threshold = 1e-08
+  convergence window size = 10
+  number of levels = 3
+  shrink factors per level: [4, 2, 1]
+  smoothing sigmas per level: [2, 1, 0]
+  regular sampling (percentage = 0.25)
+  using the Mattes MI metric (number of bins = 32)
+
+*** Running similarity registration ***
+
+  Current level = 1 of 3
+    number of iterations = 1200
+    shrink factors = 4
+    smoothing sigmas = 2
+    required fixed parameters = []
+      Iteration 1: metric value = -0.656043, convergence value = 1.79769e+308
+      Iteration 2: metric value = -0.65614, convergence value = 1.79769e+308
+      Iteration 3: metric value = -0.656139, convergence value = 1.79769e+308
+      Iteration 4: metric value = -0.656121, convergence value = 1.79769e+308
+      Iteration 5: metric value = -0.656123, convergence value = 1.79769e+308
+      Iteration 6: metric value = -0.656111, convergence value = 1.79769e+308
+      Iteration 7: metric value = -0.656106, convergence value = 1.79769e+308
+      Iteration 8: metric value = -0.6561, convergence value = 1.79769e+308
+      Iteration 9: metric value = -0.656095, convergence value = 1.79769e+308
+  Current level = 2 of 3
+    number of iterations = 1200
+    shrink factors = 2
+    smoothing sigmas = 1
+    required fixed parameters = []
+      Iteration 1: metric value = -0.613115, convergence value = 1.79769e+308
+      Iteration 2: metric value = -0.613343, convergence value = 1.79769e+308
+      Iteration 3: metric value = -0.6135, convergence value = 1.79769e+308
+      Iteration 4: metric value = -0.613577, convergence value = 1.79769e+308
+      Iteration 5: metric value = -0.613935, convergence value = 1.79769e+308
+      Iteration 6: metric value = -0.615359, convergence value = 1.79769e+308
+      Iteration 7: metric value = -0.615405, convergence value = 1.79769e+308
+      Iteration 8: metric value = -0.615424, convergence value = 1.79769e+308
+      Iteration 9: metric value = -0.615422, convergence value = 1.79769e+308
+      Iteration 10: metric value = -0.615422, convergence value = 0.000303856
+      Iteration 11: metric value = -0.615421, convergence value = 0.000242282
+      Iteration 12: metric value = -0.615421, convergence value = 0.000177898
+      Iteration 13: metric value = -0.615419, convergence value = 0.000113792
+      Iteration 14: metric value = -0.615417, convergence value = 5.13022e-05
+      Iteration 15: metric value = -0.615417, convergence value = 2.27416e-06
+      Iteration 16: metric value = -0.615416, convergence value = 2.8407e-07
+  Current level = 3 of 3
+    number of iterations = 0
+    shrink factors = 1
+    smoothing sigmas = 0
+    required fixed parameters = []
+      Iteration 1: metric value = -0.57466, convergence value = 1.79769e+308
+  Elapsed time (stage 2): 134.079
+
+
+Stage 3
+  preprocessing:  winsorizing the image intensities
+  preprocessing:  histogram matching the images
+  iterations = 1200x1200x0
+  convergence threshold = 1e-08
+  convergence window size = 10
+  number of levels = 3
+  shrink factors per level: [4, 2, 1]
+  smoothing sigmas per level: [2, 1, 0]
+  regular sampling (percentage = 0.25)
+  using the Mattes MI metric (number of bins = 32)
+
+*** Running SyN registration (varianceForUpdateField = 3, varianceForTotalField = 0) ***
+
+  Current level = 1 of 3
+    number of iterations = 1200
+    shrink factors = 4
+    smoothing sigmas = 2
+    required fixed parameters = [54, 64, 72, 1.5, 290, -1.5, 4, 4, 4, 1, 0, 0, 0, -0, -1, 0, -1, -0]
+      Iteration 1: metric value = -0.619663, convergence value = 1.79769e+308
+      Iteration 2: metric value = -0.65189, convergence value = 1.79769e+308
+      Iteration 3: metric value = -0.67895, convergence value = 1.79769e+308
+      Iteration 4: metric value = -0.694279, convergence value = 1.79769e+308
+      Iteration 5: metric value = -0.707478, convergence value = 1.79769e+308
+      Iteration 6: metric value = -0.717003, convergence value = 1.79769e+308
+      Iteration 7: metric value = -0.721571, convergence value = 1.79769e+308
+      Iteration 8: metric value = -0.723785, convergence value = 1.79769e+308
+      Iteration 9: metric value = -0.725899, convergence value = 1.79769e+308
+      Iteration 10: metric value = -0.726718, convergence value = 0.00887275
+      Iteration 11: metric value = -0.727359, convergence value = 0.00545833
+      Iteration 12: metric value = -0.726874, convergence value = 0.00320137
+      Iteration 13: metric value = -0.727341, convergence value = 0.00186517
+      Iteration 14: metric value = -0.726457, convergence value = 0.000965508
+      Iteration 15: metric value = -0.725842, convergence value = 0.000433668
+      Iteration 16: metric value = -0.725535, convergence value = 0.000159947
+      Iteration 17: metric value = -0.724952, convergence value = -2.34636e-06
+  Current level = 2 of 3
+    number of iterations = 1200
+    shrink factors = 2
+    smoothing sigmas = 1
+    required fixed parameters = [108, 128, 145, 0.5, 292, -0.5, 2, 2, 2, 1, 0, 0, 0, -0, -1, 0, -1, -0]
+      Iteration 1: metric value = -0.659068, convergence value = 1.79769e+308
+      Iteration 2: metric value = -0.667391, convergence value = 1.79769e+308
+      Iteration 3: metric value = -0.674652, convergence value = 1.79769e+308
+      Iteration 4: metric value = -0.677227, convergence value = 1.79769e+308
+      Iteration 5: metric value = -0.678519, convergence value = 1.79769e+308
+      Iteration 6: metric value = -0.679204, convergence value = 1.79769e+308
+      Iteration 7: metric value = -0.679682, convergence value = 1.79769e+308
+      Iteration 8: metric value = -0.680147, convergence value = 1.79769e+308
+      Iteration 9: metric value = -0.680537, convergence value = 1.79769e+308
+      Iteration 10: metric value = -0.680771, convergence value = 0.00161147
+      Iteration 11: metric value = -0.680961, convergence value = 0.000843951
+      Iteration 12: metric value = -0.681132, convergence value = 0.00042116
+      Iteration 13: metric value = -0.681311, convergence value = 0.000264259
+      Iteration 14: metric value = -0.681273, convergence value = 0.000181078
+      Iteration 15: metric value = -0.681656, convergence value = 0.000139181
+      Iteration 16: metric value = -0.681762, convergence value = 0.000110166
+      Iteration 17: metric value = -0.6817, convergence value = 8.45325e-05
+      Iteration 18: metric value = -0.681849, convergence value = 6.82735e-05
+      Iteration 19: metric value = -0.68208, convergence value = 6.09761e-05
+      Iteration 20: metric value = -0.682007, convergence value = 5.18609e-05
+      Iteration 21: metric value = -0.682098, convergence value = 4.44474e-05
+      Iteration 22: metric value = -0.68208, convergence value = 3.65061e-05
+      Iteration 23: metric value = -0.682189, convergence value = 3.11862e-05
+      Iteration 24: metric value = -0.682094, convergence value = 2.0779e-05
+      Iteration 25: metric value = -0.682024, convergence value = 1.45544e-05
+      Iteration 26: metric value = -0.682295, convergence value = 1.36645e-05
+      Iteration 27: metric value = -0.682227, convergence value = 9.34182e-06
+      Iteration 28: metric value = -0.682361, convergence value = 8.64092e-06
+      Iteration 29: metric value = -0.68224, convergence value = 8.83587e-06
+      Iteration 30: metric value = -0.682346, convergence value = 8.70191e-06
+      Iteration 31: metric value = -0.682182, convergence value = 6.70767e-06
+      Iteration 32: metric value = -0.682314, convergence value = 5.66978e-06
+      Iteration 33: metric value = -0.682091, convergence value = 2.7423e-06
+      Iteration 34: metric value = -0.682478, convergence value = 3.44966e-06
+      Iteration 35: metric value = -0.682132, convergence value = -1.38661e-06
+  Current level = 3 of 3
+    number of iterations = 0
+    shrink factors = 1
+    smoothing sigmas = 0
+    required fixed parameters = [216, 256, 291, 0, 293, 0, 1, 1, 1, 1, 0, 0, 0, -0, -1, 0, -1, -0]
+  Elapsed time (stage 3): 686.355
+
+
+Total elapsed time: 1848.34
+Input scalar image: /home/srdas/bin/ahead_joint/turnkey/data/WholeBrain/1125_3_seg.nii.gz
+Reference image: /home/srdas/wd/Pfizer/ADC/NickOasisTemplate/T00_NickOasisTemplate_mprage/registration/T00_NickOasisTemplate_mprage.nii.gz
+=============================================================================
+The composite transform is comprised of the following transforms (in order): 
+  1. /home/srdas/wd/Pfizer/ADC/NickOasisTemplate/T00_NickOasisTemplate_mprage/registration/1125_3_To_T00_NickOasisTemplate_mprage/registeredFrom1125_3_ToT00_NickOasisTemplate_mprage0DerivedInitialMovingTranslation.mat (type = TranslationTransform)
+  2. /home/srdas/wd/Pfizer/ADC/NickOasisTemplate/T00_NickOasisTemplate_mprage/registration/1125_3_To_T00_NickOasisTemplate_mprage/registeredFrom1125_3_ToT00_NickOasisTemplate_mprage1Translation.mat (type = TranslationTransform)
+  3. /home/srdas/wd/Pfizer/ADC/NickOasisTemplate/T00_NickOasisTemplate_mprage/registration/1125_3_To_T00_NickOasisTemplate_mprage/registeredFrom1125_3_ToT00_NickOasisTemplate_mprage2Rigid.mat (type = Euler3DTransform)
+  4. /home/srdas/wd/Pfizer/ADC/NickOasisTemplate/T00_NickOasisTemplate_mprage/registration/1125_3_To_T00_NickOasisTemplate_mprage/registeredFrom1125_3_ToT00_NickOasisTemplate_mprage3Similarity.mat (type = Similarity3DTransform)
+  5. /home/srdas/wd/Pfizer/ADC/NickOasisTemplate/T00_NickOasisTemplate_mprage/registration/1125_3_To_T00_NickOasisTemplate_mprage/registeredFrom1125_3_ToT00_NickOasisTemplate_mprage4Warp.nii.gz (type = DisplacementFieldTransform)
+=============================================================================
+Default pixel value: 0
+Interpolation type: NearestNeighborInterpolateImageFunction
+Output warped image: /home/srdas/wd/Pfizer/ADC/NickOasisTemplate/T00_NickOasisTemplate_mprage/registration/1125_3_To_T00_NickOasisTemplate_mprage/registeredFrom1125_3_ToT00_NickOasisTemplate_mprage_reconstructed_seg.nii.gz

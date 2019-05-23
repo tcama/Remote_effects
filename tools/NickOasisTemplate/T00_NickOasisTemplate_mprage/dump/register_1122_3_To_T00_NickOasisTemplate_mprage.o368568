@@ -1,0 +1,890 @@
+=============================================================================
+The composite transform is comprised of the following transforms (in order): 
+  1. Center of mass alignment using fixed image: /home/srdas/wd/Pfizer/ADC/NickOasisTemplate/T00_NickOasisTemplate_mprage/registration/T00_NickOasisTemplate_mprage.nii.gz and moving image: /home/srdas/bin/ahead_joint/turnkey/data/WholeBrain/1122_3.nii.gz (type = TranslationTransform)
+=============================================================================
+  fixed image: /home/srdas/wd/Pfizer/ADC/NickOasisTemplate/T00_NickOasisTemplate_mprage/registration/T00_NickOasisTemplate_mprage.nii.gz
+  moving image: /home/srdas/bin/ahead_joint/turnkey/data/WholeBrain/1122_3.nii.gz
+  number of levels = 3
+  fixed image: /home/srdas/wd/Pfizer/ADC/NickOasisTemplate/T00_NickOasisTemplate_mprage/registration/T00_NickOasisTemplate_mprage.nii.gz
+  moving image: /home/srdas/bin/ahead_joint/turnkey/data/WholeBrain/1122_3.nii.gz
+  number of levels = 3
+  fixed image: /home/srdas/wd/Pfizer/ADC/NickOasisTemplate/T00_NickOasisTemplate_mprage/registration/T00_NickOasisTemplate_mprage.nii.gz
+  moving image: /home/srdas/bin/ahead_joint/turnkey/data/WholeBrain/1122_3.nii.gz
+  number of levels = 3
+  fixed image: /home/srdas/wd/Pfizer/ADC/NickOasisTemplate/T00_NickOasisTemplate_mprage/registration/T00_NickOasisTemplate_mprage.nii.gz
+  moving image: /home/srdas/bin/ahead_joint/turnkey/data/WholeBrain/1122_3.nii.gz
+  number of levels = 3
+Dimension = 3
+Number of stages = 4
+Use Histogram Matching true
+Winsorize Image Intensities true
+Lower Quantile = 0
+Upper Quantile = 0.995
+Stage 1 State
+   Metric = Mattes
+     Fixed Image = Image (0x251f4e0)
+  RTTI typeinfo:   itk::Image<float, 3u>
+  Reference Count: 2
+  Modified Time: 1109
+  Debug: Off
+  Observers: 
+    none
+  Source: (none)
+  Source output name: (none)
+  Release Data: Off
+  Data Released: False
+  Global Release Data: Off
+  PipelineMTime: 0
+  UpdateMTime: 1102
+  RealTimeStamp: 0 seconds 
+  LargestPossibleRegion: 
+    Dimension: 3
+    Index: [0, 0, 0]
+    Size: [216, 256, 291]
+  BufferedRegion: 
+    Dimension: 3
+    Index: [0, 0, 0]
+    Size: [216, 256, 291]
+  RequestedRegion: 
+    Dimension: 3
+    Index: [0, 0, 0]
+    Size: [216, 256, 291]
+  Spacing: [1, 1, 1]
+  Origin: [0, 293, 0]
+  Direction: 
+1 0 0
+0 -0 -1
+0 -1 -0
+
+  IndexToPointMatrix: 
+  1 0 0
+0 0 -1
+0 -1 0
+
+  PointToIndexMatrix: 
+  1 0 0
+0 0 -1
+0 -1 0
+
+  Inverse Direction: 
+  1 0 0
+0 0 -1
+0 -1 0
+
+  PixelContainer: 
+    ImportImageContainer (0x2531c10)
+      RTTI typeinfo:   itk::ImportImageContainer<unsigned long, float>
+      Reference Count: 1
+      Modified Time: 1099
+      Debug: Off
+      Observers: 
+        none
+      Pointer: 0x7f8ecc7cd010
+      Container manages memory: true
+      Size: 16091136
+      Capacity: 16091136
+
+     Moving Image = Image (0x252f5f0)
+  RTTI typeinfo:   itk::Image<float, 3u>
+  Reference Count: 2
+  Modified Time: 1274
+  Debug: Off
+  Observers: 
+    none
+  Source: (none)
+  Source output name: (none)
+  Release Data: Off
+  Data Released: False
+  Global Release Data: Off
+  PipelineMTime: 0
+  UpdateMTime: 1267
+  RealTimeStamp: 0 seconds 
+  LargestPossibleRegion: 
+    Dimension: 3
+    Index: [0, 0, 0]
+    Size: [256, 256, 268]
+  BufferedRegion: 
+    Dimension: 3
+    Index: [0, 0, 0]
+    Size: [256, 256, 268]
+  RequestedRegion: 
+    Dimension: 3
+    Index: [0, 0, 0]
+    Size: [256, 256, 268]
+  Spacing: [1, 1, 1]
+  Origin: [-0, 267, 0]
+  Direction: 
+1 0 0
+0 -0 -1
+0 -1 -0
+
+  IndexToPointMatrix: 
+  1 0 0
+0 0 -1
+0 -1 0
+
+  PointToIndexMatrix: 
+  1 0 0
+0 0 -1
+0 -1 0
+
+  Inverse Direction: 
+  1 0 0
+0 0 -1
+0 -1 0
+
+  PixelContainer: 
+    ImportImageContainer (0x252f8b0)
+      RTTI typeinfo:   itk::ImportImageContainer<unsigned long, float>
+      Reference Count: 1
+      Modified Time: 1264
+      Debug: Off
+      Observers: 
+        none
+      Pointer: 0x7f8ec4669010
+      Container manages memory: true
+      Size: 17563648
+      Capacity: 17563648
+
+     Weighting = 1
+     Sampling Strategy = regular
+     NumberOfBins = 32
+     Radius = 1
+     Sampling percentage  = 0.25
+   Transform = Translation
+     Gradient Step = 0.1
+     Update Field Sigma (voxel space) = 0
+     Total Field Sigma (voxel space) = 0
+     Update Field Time Sigma = 0
+     Total Field Time Sigma  = 0
+     Number of Time Indices = 0
+     Number of Time Point Samples = 0
+Stage 2 State
+   Metric = Mattes
+     Fixed Image = Image (0x253c9b0)
+  RTTI typeinfo:   itk::Image<float, 3u>
+  Reference Count: 2
+  Modified Time: 1442
+  Debug: Off
+  Observers: 
+    none
+  Source: (none)
+  Source output name: (none)
+  Release Data: Off
+  Data Released: False
+  Global Release Data: Off
+  PipelineMTime: 0
+  UpdateMTime: 1435
+  RealTimeStamp: 0 seconds 
+  LargestPossibleRegion: 
+    Dimension: 3
+    Index: [0, 0, 0]
+    Size: [216, 256, 291]
+  BufferedRegion: 
+    Dimension: 3
+    Index: [0, 0, 0]
+    Size: [216, 256, 291]
+  RequestedRegion: 
+    Dimension: 3
+    Index: [0, 0, 0]
+    Size: [216, 256, 291]
+  Spacing: [1, 1, 1]
+  Origin: [0, 293, 0]
+  Direction: 
+1 0 0
+0 -0 -1
+0 -1 -0
+
+  IndexToPointMatrix: 
+  1 0 0
+0 0 -1
+0 -1 0
+
+  PointToIndexMatrix: 
+  1 0 0
+0 0 -1
+0 -1 0
+
+  Inverse Direction: 
+  1 0 0
+0 0 -1
+0 -1 0
+
+  PixelContainer: 
+    ImportImageContainer (0x252f9b0)
+      RTTI typeinfo:   itk::ImportImageContainer<unsigned long, float>
+      Reference Count: 1
+      Modified Time: 1432
+      Debug: Off
+      Observers: 
+        none
+      Pointer: 0x7f8ec8a6a010
+      Container manages memory: true
+      Size: 16091136
+      Capacity: 16091136
+
+     Moving Image = Image (0x252c790)
+  RTTI typeinfo:   itk::Image<float, 3u>
+  Reference Count: 2
+  Modified Time: 1607
+  Debug: Off
+  Observers: 
+    none
+  Source: (none)
+  Source output name: (none)
+  Release Data: Off
+  Data Released: False
+  Global Release Data: Off
+  PipelineMTime: 0
+  UpdateMTime: 1600
+  RealTimeStamp: 0 seconds 
+  LargestPossibleRegion: 
+    Dimension: 3
+    Index: [0, 0, 0]
+    Size: [256, 256, 268]
+  BufferedRegion: 
+    Dimension: 3
+    Index: [0, 0, 0]
+    Size: [256, 256, 268]
+  RequestedRegion: 
+    Dimension: 3
+    Index: [0, 0, 0]
+    Size: [256, 256, 268]
+  Spacing: [1, 1, 1]
+  Origin: [-0, 267, 0]
+  Direction: 
+1 0 0
+0 -0 -1
+0 -1 -0
+
+  IndexToPointMatrix: 
+  1 0 0
+0 0 -1
+0 -1 0
+
+  PointToIndexMatrix: 
+  1 0 0
+0 0 -1
+0 -1 0
+
+  Inverse Direction: 
+  1 0 0
+0 0 -1
+0 -1 0
+
+  PixelContainer: 
+    ImportImageContainer (0x252ca50)
+      RTTI typeinfo:   itk::ImportImageContainer<unsigned long, float>
+      Reference Count: 1
+      Modified Time: 1597
+      Debug: Off
+      Observers: 
+        none
+      Pointer: 0x7f8ebc605010
+      Container manages memory: true
+      Size: 17563648
+      Capacity: 17563648
+
+     Weighting = 1
+     Sampling Strategy = regular
+     NumberOfBins = 32
+     Radius = 1
+     Sampling percentage  = 0.25
+   Transform = Rigid
+     Gradient Step = 0.1
+     Update Field Sigma (voxel space) = 0
+     Total Field Sigma (voxel space) = 0
+     Update Field Time Sigma = 0
+     Total Field Time Sigma  = 0
+     Number of Time Indices = 0
+     Number of Time Point Samples = 0
+Stage 3 State
+   Metric = Mattes
+     Fixed Image = Image (0x253cd30)
+  RTTI typeinfo:   itk::Image<float, 3u>
+  Reference Count: 2
+  Modified Time: 1774
+  Debug: Off
+  Observers: 
+    none
+  Source: (none)
+  Source output name: (none)
+  Release Data: Off
+  Data Released: False
+  Global Release Data: Off
+  PipelineMTime: 0
+  UpdateMTime: 1767
+  RealTimeStamp: 0 seconds 
+  LargestPossibleRegion: 
+    Dimension: 3
+    Index: [0, 0, 0]
+    Size: [216, 256, 291]
+  BufferedRegion: 
+    Dimension: 3
+    Index: [0, 0, 0]
+    Size: [216, 256, 291]
+  RequestedRegion: 
+    Dimension: 3
+    Index: [0, 0, 0]
+    Size: [216, 256, 291]
+  Spacing: [1, 1, 1]
+  Origin: [0, 293, 0]
+  Direction: 
+1 0 0
+0 -0 -1
+0 -1 -0
+
+  IndexToPointMatrix: 
+  1 0 0
+0 0 -1
+0 -1 0
+
+  PointToIndexMatrix: 
+  1 0 0
+0 0 -1
+0 -1 0
+
+  Inverse Direction: 
+  1 0 0
+0 0 -1
+0 -1 0
+
+  PixelContainer: 
+    ImportImageContainer (0x2533e90)
+      RTTI typeinfo:   itk::ImportImageContainer<unsigned long, float>
+      Reference Count: 1
+      Modified Time: 1764
+      Debug: Off
+      Observers: 
+        none
+      Pointer: 0x7f8ec0906010
+      Container manages memory: true
+      Size: 16091136
+      Capacity: 16091136
+
+     Moving Image = Image (0x2542040)
+  RTTI typeinfo:   itk::Image<float, 3u>
+  Reference Count: 2
+  Modified Time: 1939
+  Debug: Off
+  Observers: 
+    none
+  Source: (none)
+  Source output name: (none)
+  Release Data: Off
+  Data Released: False
+  Global Release Data: Off
+  PipelineMTime: 0
+  UpdateMTime: 1932
+  RealTimeStamp: 0 seconds 
+  LargestPossibleRegion: 
+    Dimension: 3
+    Index: [0, 0, 0]
+    Size: [256, 256, 268]
+  BufferedRegion: 
+    Dimension: 3
+    Index: [0, 0, 0]
+    Size: [256, 256, 268]
+  RequestedRegion: 
+    Dimension: 3
+    Index: [0, 0, 0]
+    Size: [256, 256, 268]
+  Spacing: [1, 1, 1]
+  Origin: [-0, 267, 0]
+  Direction: 
+1 0 0
+0 -0 -1
+0 -1 -0
+
+  IndexToPointMatrix: 
+  1 0 0
+0 0 -1
+0 -1 0
+
+  PointToIndexMatrix: 
+  1 0 0
+0 0 -1
+0 -1 0
+
+  Inverse Direction: 
+  1 0 0
+0 0 -1
+0 -1 0
+
+  PixelContainer: 
+    ImportImageContainer (0x2542300)
+      RTTI typeinfo:   itk::ImportImageContainer<unsigned long, float>
+      Reference Count: 1
+      Modified Time: 1929
+      Debug: Off
+      Observers: 
+        none
+      Pointer: 0x7f8eb45a1010
+      Container manages memory: true
+      Size: 17563648
+      Capacity: 17563648
+
+     Weighting = 1
+     Sampling Strategy = regular
+     NumberOfBins = 32
+     Radius = 1
+     Sampling percentage  = 0.25
+   Transform = Similarity
+     Gradient Step = 0.1
+     Update Field Sigma (voxel space) = 0
+     Total Field Sigma (voxel space) = 0
+     Update Field Time Sigma = 0
+     Total Field Time Sigma  = 0
+     Number of Time Indices = 0
+     Number of Time Point Samples = 0
+Stage 4 State
+   Metric = Mattes
+     Fixed Image = Image (0x252d8b0)
+  RTTI typeinfo:   itk::Image<float, 3u>
+  Reference Count: 2
+  Modified Time: 2106
+  Debug: Off
+  Observers: 
+    none
+  Source: (none)
+  Source output name: (none)
+  Release Data: Off
+  Data Released: False
+  Global Release Data: Off
+  PipelineMTime: 0
+  UpdateMTime: 2099
+  RealTimeStamp: 0 seconds 
+  LargestPossibleRegion: 
+    Dimension: 3
+    Index: [0, 0, 0]
+    Size: [216, 256, 291]
+  BufferedRegion: 
+    Dimension: 3
+    Index: [0, 0, 0]
+    Size: [216, 256, 291]
+  RequestedRegion: 
+    Dimension: 3
+    Index: [0, 0, 0]
+    Size: [216, 256, 291]
+  Spacing: [1, 1, 1]
+  Origin: [0, 293, 0]
+  Direction: 
+1 0 0
+0 -0 -1
+0 -1 -0
+
+  IndexToPointMatrix: 
+  1 0 0
+0 0 -1
+0 -1 0
+
+  PointToIndexMatrix: 
+  1 0 0
+0 0 -1
+0 -1 0
+
+  Inverse Direction: 
+  1 0 0
+0 0 -1
+0 -1 0
+
+  PixelContainer: 
+    ImportImageContainer (0x252ce40)
+      RTTI typeinfo:   itk::ImportImageContainer<unsigned long, float>
+      Reference Count: 1
+      Modified Time: 2096
+      Debug: Off
+      Observers: 
+        none
+      Pointer: 0x7f8eb88a2010
+      Container manages memory: true
+      Size: 16091136
+      Capacity: 16091136
+
+     Moving Image = Image (0x2549010)
+  RTTI typeinfo:   itk::Image<float, 3u>
+  Reference Count: 2
+  Modified Time: 2271
+  Debug: Off
+  Observers: 
+    none
+  Source: (none)
+  Source output name: (none)
+  Release Data: Off
+  Data Released: False
+  Global Release Data: Off
+  PipelineMTime: 0
+  UpdateMTime: 2264
+  RealTimeStamp: 0 seconds 
+  LargestPossibleRegion: 
+    Dimension: 3
+    Index: [0, 0, 0]
+    Size: [256, 256, 268]
+  BufferedRegion: 
+    Dimension: 3
+    Index: [0, 0, 0]
+    Size: [256, 256, 268]
+  RequestedRegion: 
+    Dimension: 3
+    Index: [0, 0, 0]
+    Size: [256, 256, 268]
+  Spacing: [1, 1, 1]
+  Origin: [-0, 267, 0]
+  Direction: 
+1 0 0
+0 -0 -1
+0 -1 -0
+
+  IndexToPointMatrix: 
+  1 0 0
+0 0 -1
+0 -1 0
+
+  PointToIndexMatrix: 
+  1 0 0
+0 0 -1
+0 -1 0
+
+  Inverse Direction: 
+  1 0 0
+0 0 -1
+0 -1 0
+
+  PixelContainer: 
+    ImportImageContainer (0x25492d0)
+      RTTI typeinfo:   itk::ImportImageContainer<unsigned long, float>
+      Reference Count: 1
+      Modified Time: 2261
+      Debug: Off
+      Observers: 
+        none
+      Pointer: 0x7f8eac53d010
+      Container manages memory: true
+      Size: 17563648
+      Capacity: 17563648
+
+     Weighting = 1
+     Sampling Strategy = regular
+     NumberOfBins = 32
+     Radius = 1
+     Sampling percentage  = 0.25
+   Transform = SyN
+     Gradient Step = 0.25
+     Update Field Sigma (voxel space) = 3
+     Total Field Sigma (voxel space) = 0
+     Update Field Time Sigma = 0
+     Total Field Time Sigma  = 0
+     Number of Time Indices = 0
+     Number of Time Point Samples = 0
+Registration using 4 total stages.
+
+Stage 0
+  preprocessing:  winsorizing the image intensities
+  preprocessing:  histogram matching the images
+  iterations = 1200x1200x0
+  convergence threshold = 1e-08
+  convergence window size = 10
+  number of levels = 3
+  shrink factors per level: [4, 2, 1]
+  smoothing sigmas per level: [2, 1, 0]
+  regular sampling (percentage = 0.25)
+  using the Mattes MI metric (number of bins = 32)
+
+*** Running translation registration ***
+
+  Current level = 1 of 3
+    number of iterations = 1200
+    shrink factors = 4
+    smoothing sigmas = 2
+    required fixed parameters = []
+      Iteration 1: metric value = -0.551014, convergence value = 1.79769e+308
+      Iteration 2: metric value = -0.552053, convergence value = 1.79769e+308
+      Iteration 3: metric value = -0.553481, convergence value = 1.79769e+308
+      Iteration 4: metric value = -0.555191, convergence value = 1.79769e+308
+      Iteration 5: metric value = -0.557141, convergence value = 1.79769e+308
+      Iteration 6: metric value = -0.558661, convergence value = 1.79769e+308
+      Iteration 7: metric value = -0.559021, convergence value = 1.79769e+308
+      Iteration 8: metric value = -0.559187, convergence value = 1.79769e+308
+      Iteration 9: metric value = -0.559125, convergence value = 1.79769e+308
+      Iteration 10: metric value = -0.55914, convergence value = 0.00103982
+      Iteration 11: metric value = -0.55913, convergence value = 0.000733601
+      Iteration 12: metric value = -0.559481, convergence value = 0.000471903
+      Iteration 13: metric value = -0.559464, convergence value = 0.000262911
+      Iteration 14: metric value = -0.55946, convergence value = 0.000121208
+      Iteration 15: metric value = -0.55945, convergence value = 5.23183e-05
+      Iteration 16: metric value = -0.559446, convergence value = 3.52587e-05
+      Iteration 17: metric value = -0.559441, convergence value = 2.72916e-05
+      Iteration 18: metric value = -0.559436, convergence value = 2.23071e-05
+      Iteration 19: metric value = -0.559436, convergence value = 1.42698e-05
+      Iteration 20: metric value = -0.559437, convergence value = 6.23741e-06
+  Current level = 2 of 3
+    number of iterations = 1200
+    shrink factors = 2
+    smoothing sigmas = 1
+    required fixed parameters = []
+      Iteration 1: metric value = -0.53679, convergence value = 1.79769e+308
+      Iteration 2: metric value = -0.537518, convergence value = 1.79769e+308
+      Iteration 3: metric value = -0.537972, convergence value = 1.79769e+308
+      Iteration 4: metric value = -0.53807, convergence value = 1.79769e+308
+      Iteration 5: metric value = -0.538417, convergence value = 1.79769e+308
+      Iteration 6: metric value = -0.53843, convergence value = 1.79769e+308
+      Iteration 7: metric value = -0.538431, convergence value = 1.79769e+308
+      Iteration 8: metric value = -0.538431, convergence value = 1.79769e+308
+      Iteration 9: metric value = -0.53843, convergence value = 1.79769e+308
+      Iteration 10: metric value = -0.538426, convergence value = 0.000154968
+      Iteration 11: metric value = -0.538426, convergence value = 7.54512e-05
+      Iteration 12: metric value = -0.538425, convergence value = 3.41941e-05
+      Iteration 13: metric value = -0.538423, convergence value = 1.46738e-05
+  Current level = 3 of 3
+    number of iterations = 0
+    shrink factors = 1
+    smoothing sigmas = 0
+    required fixed parameters = []
+      Iteration 1: metric value = -0.508536, convergence value = 1.79769e+308
+  Elapsed time (stage 0): 76.6259
+
+
+Stage 1
+  preprocessing:  winsorizing the image intensities
+  preprocessing:  histogram matching the images
+  iterations = 1200x1200x0
+  convergence threshold = 1e-08
+  convergence window size = 10
+  number of levels = 3
+  shrink factors per level: [4, 2, 1]
+  smoothing sigmas per level: [2, 1, 0]
+  regular sampling (percentage = 0.25)
+  using the Mattes MI metric (number of bins = 32)
+
+*** Running rigid registration ***
+
+  Current level = 1 of 3
+    number of iterations = 1200
+    shrink factors = 4
+    smoothing sigmas = 2
+    required fixed parameters = []
+      Iteration 1: metric value = -0.558023, convergence value = 1.79769e+308
+      Iteration 2: metric value = -0.558001, convergence value = 1.79769e+308
+      Iteration 3: metric value = -0.557975, convergence value = 1.79769e+308
+      Iteration 4: metric value = -0.557981, convergence value = 1.79769e+308
+      Iteration 5: metric value = -0.557974, convergence value = 1.79769e+308
+      Iteration 6: metric value = -0.557953, convergence value = 1.79769e+308
+      Iteration 7: metric value = -0.55794, convergence value = 1.79769e+308
+      Iteration 8: metric value = -0.557933, convergence value = 1.79769e+308
+      Iteration 9: metric value = -0.557935, convergence value = 1.79769e+308
+  Current level = 2 of 3
+    number of iterations = 1200
+    shrink factors = 2
+    smoothing sigmas = 1
+    required fixed parameters = []
+      Iteration 1: metric value = -0.538006, convergence value = 1.79769e+308
+      Iteration 2: metric value = -0.538316, convergence value = 1.79769e+308
+      Iteration 3: metric value = -0.538316, convergence value = 1.79769e+308
+      Iteration 4: metric value = -0.538315, convergence value = 1.79769e+308
+      Iteration 5: metric value = -0.538316, convergence value = 1.79769e+308
+      Iteration 6: metric value = -0.538315, convergence value = 1.79769e+308
+      Iteration 7: metric value = -0.538316, convergence value = 1.79769e+308
+      Iteration 8: metric value = -0.538315, convergence value = 1.79769e+308
+      Iteration 9: metric value = -0.538314, convergence value = 1.79769e+308
+      Iteration 10: metric value = -0.538313, convergence value = 1.64479e-05
+  Current level = 3 of 3
+    number of iterations = 0
+    shrink factors = 1
+    smoothing sigmas = 0
+    required fixed parameters = []
+      Iteration 1: metric value = -0.508664, convergence value = 1.79769e+308
+  Elapsed time (stage 1): 83.3902
+
+
+Stage 2
+  preprocessing:  winsorizing the image intensities
+  preprocessing:  histogram matching the images
+  iterations = 1200x1200x0
+  convergence threshold = 1e-08
+  convergence window size = 10
+  number of levels = 3
+  shrink factors per level: [4, 2, 1]
+  smoothing sigmas per level: [2, 1, 0]
+  regular sampling (percentage = 0.25)
+  using the Mattes MI metric (number of bins = 32)
+
+*** Running similarity registration ***
+
+  Current level = 1 of 3
+    number of iterations = 1200
+    shrink factors = 4
+    smoothing sigmas = 2
+    required fixed parameters = []
+      Iteration 1: metric value = -0.557834, convergence value = 1.79769e+308
+      Iteration 2: metric value = -0.558329, convergence value = 1.79769e+308
+      Iteration 3: metric value = -0.559614, convergence value = 1.79769e+308
+      Iteration 4: metric value = -0.561501, convergence value = 1.79769e+308
+      Iteration 5: metric value = -0.563693, convergence value = 1.79769e+308
+      Iteration 6: metric value = -0.568887, convergence value = 1.79769e+308
+      Iteration 7: metric value = -0.577891, convergence value = 1.79769e+308
+      Iteration 8: metric value = -0.578054, convergence value = 1.79769e+308
+      Iteration 9: metric value = -0.579376, convergence value = 1.79769e+308
+      Iteration 10: metric value = -0.580952, convergence value = 0.00314739
+      Iteration 11: metric value = -0.582366, convergence value = 0.00287582
+      Iteration 12: metric value = -0.583689, convergence value = 0.00246178
+      Iteration 13: metric value = -0.585126, convergence value = 0.0019953
+      Iteration 14: metric value = -0.587456, convergence value = 0.00156899
+      Iteration 15: metric value = -0.591949, convergence value = 0.00127444
+      Iteration 16: metric value = -0.593784, convergence value = 0.00110713
+      Iteration 17: metric value = -0.595366, convergence value = 0.00116635
+      Iteration 18: metric value = -0.598195, convergence value = 0.00119311
+      Iteration 19: metric value = -0.602597, convergence value = 0.00125141
+      Iteration 20: metric value = -0.610309, convergence value = 0.00141017
+      Iteration 21: metric value = -0.614711, convergence value = 0.00155299
+      Iteration 22: metric value = -0.614764, convergence value = 0.00156919
+      Iteration 23: metric value = -0.615452, convergence value = 0.00148485
+      Iteration 24: metric value = -0.615907, convergence value = 0.00132233
+      Iteration 25: metric value = -0.615954, convergence value = 0.00113435
+      Iteration 26: metric value = -0.615956, convergence value = 0.00088861
+      Iteration 27: metric value = -0.615947, convergence value = 0.000607942
+      Iteration 28: metric value = -0.615945, convergence value = 0.000339954
+      Iteration 29: metric value = -0.615947, convergence value = 0.000129169
+      Iteration 30: metric value = -0.61594, convergence value = 4.21475e-05
+      Iteration 31: metric value = -0.61594, convergence value = 2.52241e-05
+      Iteration 32: metric value = -0.615934, convergence value = 7.54111e-06
+  Current level = 2 of 3
+    number of iterations = 1200
+    shrink factors = 2
+    smoothing sigmas = 1
+    required fixed parameters = []
+      Iteration 1: metric value = -0.581179, convergence value = 1.79769e+308
+      Iteration 2: metric value = -0.581344, convergence value = 1.79769e+308
+      Iteration 3: metric value = -0.58138, convergence value = 1.79769e+308
+      Iteration 4: metric value = -0.581408, convergence value = 1.79769e+308
+      Iteration 5: metric value = -0.581429, convergence value = 1.79769e+308
+      Iteration 6: metric value = -0.581447, convergence value = 1.79769e+308
+      Iteration 7: metric value = -0.581453, convergence value = 1.79769e+308
+      Iteration 8: metric value = -0.581469, convergence value = 1.79769e+308
+      Iteration 9: metric value = -0.581487, convergence value = 1.79769e+308
+      Iteration 10: metric value = -0.581488, convergence value = 2.58341e-05
+      Iteration 11: metric value = -0.581489, convergence value = 1.43225e-05
+      Iteration 12: metric value = -0.581488, convergence value = 1.01548e-05
+      Iteration 13: metric value = -0.581488, convergence value = 7.07244e-06
+      Iteration 14: metric value = -0.581488, convergence value = 4.75664e-06
+      Iteration 15: metric value = -0.581487, convergence value = 2.99242e-06
+      Iteration 16: metric value = -0.581486, convergence value = 1.72245e-06
+      Iteration 17: metric value = -0.581485, convergence value = 6.28549e-07
+      Iteration 18: metric value = -0.581485, convergence value = 2.69824e-08
+  Current level = 3 of 3
+    number of iterations = 0
+    shrink factors = 1
+    smoothing sigmas = 0
+    required fixed parameters = []
+      Iteration 1: metric value = -0.545915, convergence value = 1.79769e+308
+  Elapsed time (stage 2): 130.982
+
+
+Stage 3
+  preprocessing:  winsorizing the image intensities
+  preprocessing:  histogram matching the images
+  iterations = 1200x1200x0
+  convergence threshold = 1e-08
+  convergence window size = 10
+  number of levels = 3
+  shrink factors per level: [4, 2, 1]
+  smoothing sigmas per level: [2, 1, 0]
+  regular sampling (percentage = 0.25)
+  using the Mattes MI metric (number of bins = 32)
+
+*** Running SyN registration (varianceForUpdateField = 3, varianceForTotalField = 0) ***
+
+  Current level = 1 of 3
+    number of iterations = 1200
+    shrink factors = 4
+    smoothing sigmas = 2
+    required fixed parameters = [54, 64, 72, 1.5, 290, -1.5, 4, 4, 4, 1, 0, 0, 0, -0, -1, 0, -1, -0]
+      Iteration 1: metric value = -0.592379, convergence value = 1.79769e+308
+      Iteration 2: metric value = -0.629328, convergence value = 1.79769e+308
+      Iteration 3: metric value = -0.66041, convergence value = 1.79769e+308
+      Iteration 4: metric value = -0.679827, convergence value = 1.79769e+308
+      Iteration 5: metric value = -0.693115, convergence value = 1.79769e+308
+      Iteration 6: metric value = -0.702429, convergence value = 1.79769e+308
+      Iteration 7: metric value = -0.709854, convergence value = 1.79769e+308
+      Iteration 8: metric value = -0.713661, convergence value = 1.79769e+308
+      Iteration 9: metric value = -0.717017, convergence value = 1.79769e+308
+      Iteration 10: metric value = -0.719798, convergence value = 0.0107124
+      Iteration 11: metric value = -0.722596, convergence value = 0.00686319
+      Iteration 12: metric value = -0.724467, convergence value = 0.004388
+      Iteration 13: metric value = -0.725874, convergence value = 0.00293363
+      Iteration 14: metric value = -0.728227, convergence value = 0.00206146
+      Iteration 15: metric value = -0.728752, convergence value = 0.00149342
+      Iteration 16: metric value = -0.730099, convergence value = 0.00113033
+      Iteration 17: metric value = -0.729845, convergence value = 0.00087762
+      Iteration 18: metric value = -0.730981, convergence value = 0.0006838
+      Iteration 19: metric value = -0.731047, convergence value = 0.00051908
+      Iteration 20: metric value = -0.732199, convergence value = 0.000401561
+      Iteration 21: metric value = -0.731161, convergence value = 0.00029137
+      Iteration 22: metric value = -0.732379, convergence value = 0.000221456
+      Iteration 23: metric value = -0.729965, convergence value = 0.000118102
+      Iteration 24: metric value = -0.73207, convergence value = 8.78837e-05
+      Iteration 25: metric value = -0.730511, convergence value = 3.36402e-05
+      Iteration 26: metric value = -0.731653, convergence value = 1.97538e-05
+      Iteration 27: metric value = -0.731532, convergence value = -1.03713e-06
+  Current level = 2 of 3
+    number of iterations = 1200
+    shrink factors = 2
+    smoothing sigmas = 1
+    required fixed parameters = [108, 128, 145, 0.5, 292, -0.5, 2, 2, 2, 1, 0, 0, 0, -0, -1, 0, -1, -0]
+      Iteration 1: metric value = -0.666875, convergence value = 1.79769e+308
+      Iteration 2: metric value = -0.676861, convergence value = 1.79769e+308
+      Iteration 3: metric value = -0.683224, convergence value = 1.79769e+308
+      Iteration 4: metric value = -0.686135, convergence value = 1.79769e+308
+      Iteration 5: metric value = -0.688377, convergence value = 1.79769e+308
+      Iteration 6: metric value = -0.689356, convergence value = 1.79769e+308
+      Iteration 7: metric value = -0.690788, convergence value = 1.79769e+308
+      Iteration 8: metric value = -0.690444, convergence value = 1.79769e+308
+      Iteration 9: metric value = -0.692637, convergence value = 1.79769e+308
+      Iteration 10: metric value = -0.691966, convergence value = 0.00191849
+      Iteration 11: metric value = -0.693608, convergence value = 0.0011353
+      Iteration 12: metric value = -0.692578, convergence value = 0.000685653
+      Iteration 13: metric value = -0.694662, convergence value = 0.000512121
+      Iteration 14: metric value = -0.694317, convergence value = 0.000389712
+      Iteration 15: metric value = -0.694858, convergence value = 0.000324783
+      Iteration 16: metric value = -0.694862, convergence value = 0.000263221
+      Iteration 17: metric value = -0.695566, convergence value = 0.000237283
+      Iteration 18: metric value = -0.695302, convergence value = 0.000176484
+      Iteration 19: metric value = -0.696052, convergence value = 0.000170356
+      Iteration 20: metric value = -0.695177, convergence value = 0.000116264
+      Iteration 21: metric value = -0.69657, convergence value = 0.000117475
+      Iteration 22: metric value = -0.695922, convergence value = 7.4312e-05
+      Iteration 23: metric value = -0.696487, convergence value = 7.60048e-05
+      Iteration 24: metric value = -0.696275, convergence value = 6.06972e-05
+      Iteration 25: metric value = -0.69674, convergence value = 5.76777e-05
+      Iteration 26: metric value = -0.696118, convergence value = 3.9168e-05
+      Iteration 27: metric value = -0.696917, convergence value = 4.16261e-05
+      Iteration 28: metric value = -0.695646, convergence value = 1.69103e-05
+      Iteration 29: metric value = -0.697019, convergence value = 2.33401e-05
+      Iteration 30: metric value = -0.696385, convergence value = 5.33533e-06
+      Iteration 31: metric value = -0.69675, convergence value = 1.1826e-05
+      Iteration 32: metric value = -0.696519, convergence value = 5.3649e-06
+      Iteration 33: metric value = -0.696513, convergence value = 5.92781e-06
+      Iteration 34: metric value = -0.696257, convergence value = 3.1283e-08
+      Iteration 35: metric value = -0.696597, convergence value = 4.07235e-06
+      Iteration 36: metric value = -0.696165, convergence value = -4.84979e-06
+  Current level = 3 of 3
+    number of iterations = 0
+    shrink factors = 1
+    smoothing sigmas = 0
+    required fixed parameters = [216, 256, 291, 0, 293, 0, 1, 1, 1, 1, 0, 0, 0, -0, -1, 0, -1, -0]
+  Elapsed time (stage 3): 726.746
+
+
+Total elapsed time: 1017.75
+Input scalar image: /home/srdas/bin/ahead_joint/turnkey/data/WholeBrain/1122_3_seg.nii.gz
+Reference image: /home/srdas/wd/Pfizer/ADC/NickOasisTemplate/T00_NickOasisTemplate_mprage/registration/T00_NickOasisTemplate_mprage.nii.gz
+=============================================================================
+The composite transform is comprised of the following transforms (in order): 
+  1. /home/srdas/wd/Pfizer/ADC/NickOasisTemplate/T00_NickOasisTemplate_mprage/registration/1122_3_To_T00_NickOasisTemplate_mprage/registeredFrom1122_3_ToT00_NickOasisTemplate_mprage0DerivedInitialMovingTranslation.mat (type = TranslationTransform)
+  2. /home/srdas/wd/Pfizer/ADC/NickOasisTemplate/T00_NickOasisTemplate_mprage/registration/1122_3_To_T00_NickOasisTemplate_mprage/registeredFrom1122_3_ToT00_NickOasisTemplate_mprage1Translation.mat (type = TranslationTransform)
+  3. /home/srdas/wd/Pfizer/ADC/NickOasisTemplate/T00_NickOasisTemplate_mprage/registration/1122_3_To_T00_NickOasisTemplate_mprage/registeredFrom1122_3_ToT00_NickOasisTemplate_mprage2Rigid.mat (type = Euler3DTransform)
+  4. /home/srdas/wd/Pfizer/ADC/NickOasisTemplate/T00_NickOasisTemplate_mprage/registration/1122_3_To_T00_NickOasisTemplate_mprage/registeredFrom1122_3_ToT00_NickOasisTemplate_mprage3Similarity.mat (type = Similarity3DTransform)
+  5. /home/srdas/wd/Pfizer/ADC/NickOasisTemplate/T00_NickOasisTemplate_mprage/registration/1122_3_To_T00_NickOasisTemplate_mprage/registeredFrom1122_3_ToT00_NickOasisTemplate_mprage4Warp.nii.gz (type = DisplacementFieldTransform)
+=============================================================================
+Default pixel value: 0
+Interpolation type: NearestNeighborInterpolateImageFunction
+Output warped image: /home/srdas/wd/Pfizer/ADC/NickOasisTemplate/T00_NickOasisTemplate_mprage/registration/1122_3_To_T00_NickOasisTemplate_mprage/registeredFrom1122_3_ToT00_NickOasisTemplate_mprage_reconstructed_seg.nii.gz
