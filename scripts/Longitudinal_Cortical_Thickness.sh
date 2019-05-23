@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #!/bin/bash
 #
 # This file is used to process a single subject using the ANTs Longitudinal Cortical Thickness 
@@ -35,8 +34,6 @@ TEMPLATE_DIR=./tools/OasisTemplate/
 
 # setup output directory
 OUT_DIR=./analysis/${1}/
-mkdir $OUT_DIR
-OUT_DIR=./analysis/${1}/Longitudinal_Cortical_Thickness
 mkdir $OUT_DIR
 
 # get number of files (used to determine number of cores to use)
