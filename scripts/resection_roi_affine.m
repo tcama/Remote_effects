@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 function [ROI] = resection_roi_affine(filepath)
 % This function takes in the path to a single subject template, where
 % images have been 
@@ -100,4 +99,3 @@ filename = fullfile(outpath,'resection_mask');
 niftiwrite(ROI, filename, info);
 
 end
->>>>>>> refs/remotes/origin/master
