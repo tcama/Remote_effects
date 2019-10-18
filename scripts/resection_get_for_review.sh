@@ -1,3 +1,5 @@
+# This script is used to aggregate resection data for review
+
 mkdir tmp/resections/
 
 # loop through HUP subjects
@@ -11,3 +13,5 @@ for sub in 02 03 04 05 06 07 08 09 11 13 14 15 18 20 21 22 23 24 25 26 27 30 32
 do
 	cp -r analysis/pat${sub}/resection_affine tmp/resections/pat${sub}
 done
+
+zip -r resections_for_review tmp/resections/
