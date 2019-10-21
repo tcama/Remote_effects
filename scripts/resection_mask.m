@@ -19,6 +19,6 @@ mask = mask - roi;
 % take difference and save masked template
 info = niftiinfo(filename);
 filename = fullfile(outpath,'template_resection_masked');
-niftiwrite(mask, filename, info);
+niftiwrite(mask, filename, info,'Compressed',1);
 
 end

@@ -50,12 +50,12 @@ mask = mask - ROI;
 % take difference and save masked template
 info = niftiinfo(filename);
 filename = fullfile(outpath,'template_resection_masked');
-niftiwrite(mask, filename, info);
+niftiwrite(mask, filename, info,'Compressed',1);
 
 % take difference and save masked template
 filename = fullfile(filepath,'T_templateBrainExtractionMask.nii.gz');
 info = niftiinfo(filename);
 filename = fullfile(outpath,'resection_mask_SST');
-niftiwrite(ROI, filename, info);
+niftiwrite(ROI, filename, info,'Compressed',1);
 
 end

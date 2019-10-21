@@ -45,7 +45,7 @@ ROI = double(ROI); % make proper output precision
 filename = fullfile(outpath,'pre2post_BrainSegmentationPosteriors1.nii.gz');
 info = niftiinfo(filename);
 filename = fullfile(outpath,'resection_mask');
-niftiwrite(ROI, filename, info);
+niftiwrite(ROI, filename, info,'Compressed',1);
 
 end
 =======
@@ -96,6 +96,6 @@ ROI = double(ROI); % make proper output precision
 filename = fullfile(outpath,'pre2post_BrainSegmentationPosteriors1.nii.gz');
 info = niftiinfo(filename);
 filename = fullfile(outpath,'resection_mask');
-niftiwrite(ROI, filename, info);
+niftiwrite(ROI, filename, info,'Compressed',1);
 
 end
