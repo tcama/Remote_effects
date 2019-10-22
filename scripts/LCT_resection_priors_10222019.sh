@@ -18,6 +18,7 @@
 # Thomas Campbell Arnold
 # tcarnold@seas.upenn.edu
 # 5/23/2019
+# 10/22/2019 - used manually edited versions of resections
 
 DATA_DIR=./data/${1}/
 TEMPLATE_DIR=./tools/OasisTemplate/
@@ -36,11 +37,12 @@ postfolder=$(echo ./analysis/"${1}"/"${post}"*/)
 # setup output directory
 OUT_DIR=./analysis/${1}/
 mkdir $OUT_DIR
-OUT_DIR=./analysis/${1}/LCT_final_priors/
+OUT_DIR=./analysis/${1}/LCT_manual/
 mkdir $OUT_DIR
 
 # transform post-resection roi to SST
-IMG=./analysis/${1}/resection_affine/resection_mask.nii
+#IMG=./analysis/${1}/resection_affine/resection_mask_postprocessed.nii.gz
+IMG=./tmp/resections_manual/${1}/resection_mask_postprocessed.nii.gz
 antsApplyTransforms \
 -d 3 \
 -i ${IMG} \
@@ -51,7 +53,7 @@ antsApplyTransforms \
 -r ${ANALYSIS_DIR}SingleSubjectTemplate/T_template0.nii.gz
 
 # remove resection roi from brain-mask
-matlab -nodisplay -nosplash -r "addpath(genpath(pwd)); resection_priors('./analysis/"${1}"/'); exit;"
+matlab -nodisplay -nosplash -r "addpath(genpath(pwd)); resection_priors_10222019('./analysis/"${1}"/'); exit;"
 
 # reorient images
 for f in ${OUT_DIR}*
