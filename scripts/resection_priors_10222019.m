@@ -1,4 +1,4 @@
-function [mask,roi] = resection_priors(filepath)
+function [mask,roi] = resection_priors_10222019(filepath)
 % This function takes in the path to a single subject template, where
 % images have been 
 %
@@ -6,7 +6,7 @@ function [mask,roi] = resection_priors(filepath)
 % tcarnold@seas.upenn.edu
 % 5/30/2019
 
-outpath = fullfile(filepath, 'LCT_final_priors');
+outpath = fullfile(filepath, 'LCT_manual');
 
 % read in segmentations
 filename = fullfile(outpath,'post2SST_resection_mask.nii.gz');
